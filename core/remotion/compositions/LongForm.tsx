@@ -21,6 +21,7 @@ import { Parallax } from '../components/Parallax';
 import { Collage } from '../components/Collage';
 import { GeoMap } from '../components/GeoMap';
 import { Annotate } from '../components/Annotate';
+import { SceneFx } from '../components/SceneFx';
 
 // Tên component trong scenes.json → component React. Thêm component mới: đăng ký ở đây + enum trong scenes.schema.json
 export const COMPONENTS: Record<string, React.FC<SceneProps>> = { KenBurns, TitleCard, Creature, SizeCompare, GeoClock, MapDrift, PhotoCard, Parallax, Collage, GeoMap };
@@ -51,7 +52,9 @@ export const LongForm: React.FC<EpisodeProps> = ({ fps, scenes, theme, audio, gr
           return (
             <Sequence key={s.id} from={from - lead} durationInFrames={dur + lead}>
               <Fader first={i === 0} kind={s.transition}>
-                <C dur={dur + lead} asset={s.asset} props={s.props || {}} />
+                <SceneFx p={s.props || {}} lead={lead} fps={fps}>
+                  <C dur={dur + lead} asset={s.asset} props={s.props || {}} />
+                </SceneFx>
                 {s.props?.recon ? <ReconTag /> : null}
                 <Sequence from={lead}>
                   <Annotate items={s.props?.annotate} fps={fps} />

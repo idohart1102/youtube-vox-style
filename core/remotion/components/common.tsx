@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCurrentFrame } from 'remotion';
+import { spring, useCurrentFrame } from 'remotion';
 import { Defs, ramp } from '../lib/lib';
 import { Theme, DEFAULT_THEME } from '../types';
 
@@ -66,9 +66,44 @@ export const jaAgo = (ma: number) =>
 export const STICKER = 'drop-shadow(4px 0 0 #fff) drop-shadow(-4px 0 0 #fff) drop-shadow(0 4px 0 #fff) drop-shadow(0 -4px 0 #fff) drop-shadow(0 14px 18px rgba(0,0,0,0.45))';
 
 // Hiệu ứng xuất hiện của 1 lớp: pop (phóng nhẹ), rise (trồi lên), fade. Trả về [opacity, scale, dy]
+// pop và rise dùng spring "crisp": vượt nhẹ rồi dừng gọn, không nảy nhiều lần
 export const enterFx = (f: number, at: number, kind = 'pop'): [number, number, number] => {
   const k = ramp(f, at, at + 14);
-  if (kind === 'rise') return [k, 1, (1 - k) * 80];
   if (kind === 'fade') return [k, 1, 0];
-  return [k, 0.86 + 0.14 * k + Math.sin(k * Math.PI) * 0.03, 0];
+  const s = spring({ frame: Math.max(0, f - at), fps: 30, config: { damping: 13, stiffness: 160, mass: 0.7 } });
+  if (kind === 'rise') return [k, 1, (1 - s) * 80];
+  return [k, 0.86 + 0.14 * s, 0];
+};
+
+// Chuyển động lặp nhẹ cho cutout (không cần rig): breathe, sway, bob, walk. Gốc xoay/co giãn là chân lớp.
+// Trả về chuỗi transform ghép sau translate của lớp.
+export const idleFx = (f: number, kind?: string, seed = 0): string => {
+  const w = (period_s: number) => (2 * Math.PI * f) / (30 * period_s) + seed * 1.7;
+  if (kind === 'breathe') return `scaleY(${1 + 0.015 * Math.sin(w(3.5))})`;
+  if (kind === 'sway') return `rotate(${1.5 * Math.sin(w(4))}deg)`;
+  if (kind === 'bob') return `translateY(${6 * Math.sin(w(2.5))}px)`;
+  if (kind === 'walk') return `translateY(${-3 * Math.abs(Math.sin(w(1.1)))}px)`;
+  return '';
+};
+
+// Rung máy khi va chạm: tắt dần trong len khung, biên độ amp px. Trả về [dx, dy]
+export const shakeXY = (f: number, at: number, len: number, amp = 14): [number, number] => {
+  const t = f - at;
+  if (t < 0 || t > len) return [0, 0];
+  const e = (amp * (1 - t / len)) / 1.5;
+  return [e * (Math.sin(t * 1.9) + 0.5 * Math.sin(t * 4.3 + 1)), e * (Math.sin(t * 2.3 + 2) + 0.5 * Math.sin(t * 3.7))];
+};
+
+// Asset ẩn cho câu hỏi: không lộ đáp án trước khi lời đọc trả lời.
+// hide: silhouette (bóng đen viền trắng) | fog (mờ tối) | blur (nhòe mạnh) | keyhole (chỉ lộ 1 vòng nhỏ).
+// unmask_s: giây (tính từ đầu cảnh) bắt đầu lộ ra trong 0,8 giây; không có thì ẩn suốt cảnh.
+export const hiddenAmount = (f: number, hide?: string, unmask_s?: number) =>
+  !hide ? 0 : unmask_s == null ? 1 : 1 - ramp(f, unmask_s * 30, unmask_s * 30 + 24);
+
+export const hideFx = (hide: string | undefined, h: number): { filter: string; clipPath?: string; opacity: number } => {
+  if (!hide || h <= 0) return { filter: '', opacity: 1 };
+  if (hide === 'silhouette') return { filter: `brightness(${1 - h})`, opacity: 1 };
+  if (hide === 'fog') return { filter: `blur(${12 * h}px) brightness(${1 - 0.45 * h})`, opacity: 1 - 0.35 * h };
+  if (hide === 'keyhole') return { filter: '', clipPath: `circle(${22 + 60 * (1 - h)}% at 50% 45%)`, opacity: 1 };
+  return { filter: `blur(${22 * h}px)`, opacity: 1 };
 };

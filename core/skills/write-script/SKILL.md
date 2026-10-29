@@ -15,6 +15,7 @@ Quy tắc chung cho mọi kênh:
 - Độ dài lấy từ `length_min` nhân `words_per_min`. Nếu kênh không có `words_per_min`, dùng tốc độ trong file lang.
 - 60 giây đầu phải có cái móc, lời hứa và cảm giác cụ thể. Cứ 90-120 giây mở một vòng tò mò mới.
 - Ghi chú hình trong [ ] ngay trong lời đọc, ví dụ [size:dunkleosteus-vs-human]. Badge mức chắc chắn cũng ghi trong [ ] nếu style.md yêu cầu. [THẺ: …] chỉ là keyword hoặc số liệu, tối đa 6 từ (xem visual.md của kênh nếu có).
+- Câu hỏi có đáp án ở phía sau: ghi `[HỎI: q1]` ngay trước câu hỏi và `[ĐÁP: q1]` ngay trước câu trả lời (q1, q2… theo thứ tự). Ghi chú hình cho câu hỏi chỉ tả sự bí ẩn (bóng đen, sương, một chi tiết), không tả đáp án.
 - Chỉ dùng sự thật có nguồn khoa học (brief hoặc sources.md). Không suy đoán gây sốc sai sự thật.
 
 ## Đầu ra: 3 file trong thư mục tập, đủ 5 phần

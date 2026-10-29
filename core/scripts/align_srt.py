@@ -12,6 +12,7 @@ MIN_MATCH = 0.90    # dưới mức này thì dừng và báo câu lệch
 LATIN = r"[A-Za-z]+(?: [A-Za-z]+)? \(([^()]*-[^()]*)\)"  # "Chicxulub (chích-xu-lúp)"
 BADGES = {"đã xác nhận": "xac-nhan", "có thể": "co-the", "còn tranh cãi": "tranh-cai"}
 # Đơn vị viết thành chữ cho giọng đọc, nhưng trên màn hình (phụ đề, thẻ) viết ký hiệu: "10 ki-lô-mét" → "10 km"
+QA = re.compile(r"(HỎI|ĐÁP)\s*:\s*(\w+)$", re.I)  # đánh dấu câu hỏi và câu trả lời: [HỎI: q1] ... [ĐÁP: q1]
 UNITS = [(r"ki-lô-mét vuông", "km²"), (r"ki-lô-mét", "km"), (r"ki-lô-gam", "kg"), (r"phần trăm", "%"), (r"độ C", "°C"), (r"mét", "m")]
 
 
@@ -54,7 +55,7 @@ def read_srt():
 
 def read_storyboard():
     """Mỗi câu lời đọc: chương, chữ hiển thị, chữ đọc, ghi chú [ ] đứng trước hoặc cùng dòng."""
-    out, chapter, pending = [], "", []
+    out, chapter, pending, pending_qa = [], "", [], []
     for raw in (ep / "storyboard.md").read_text(encoding="utf-8").splitlines():
         if raw.startswith("## "):
             chapter = raw[3:].strip()
@@ -62,14 +63,29 @@ def read_storyboard():
         if raw.startswith("#"):
             continue
         notes = re.findall(r"\[([^\]]*)\]", raw)
-        text = re.sub(r"\s{2,}", " ", re.sub(r"\[[^\]]*\]", "", raw)).strip()
         pending += notes
-        if not text:
-            continue
-        for k, sent in enumerate(re.split(r"(?<=[.?!…])\s+", text)):
+        # [HỎI: q1] / [ĐÁP: q1] gắn đúng câu đứng ngay sau thẻ (thẻ cuối dòng thì gắn câu ngay trước)
+        marked = re.sub(r"\[([^\]]*)\]", lambda m: f"\x00{m[1].strip()}\x00" if QA.match(m[1].strip()) else "", raw)
+        k = 0
+        for seg in re.split(r"(?<=[.?!…])\s+", marked.strip()):
+            qa = [QA.match(n) for n in re.findall(r"\x00([^\x00]*)\x00", seg)]
+            qa = [f"{m[1].upper()}:{m[2]}" for m in qa]
+            sent = re.sub(r"\s{2,}", " ", re.sub(r"\x00[^\x00]*\x00", "", seg)).strip()
+            if not sent:
+                if k:
+                    out[-1].setdefault("qa", []).extend(qa)
+                else:
+                    pending_qa += qa
+                continue
             out.append({"chapter": chapter, "text": screen(re.sub(r" \(([^()]*-[^()]*)\)", "", sent)),
                         "speak": re.sub(LATIN, r"\1", sent), "notes": pending if k == 0 else []})
-        pending = []
+            if pending_qa + qa:
+                out[-1]["qa"] = pending_qa + qa
+            if sent.endswith("?"):
+                out[-1]["ask"] = True
+            pending_qa, k = [], k + 1
+        if k:
+            pending = []
     return out
 
 
@@ -142,7 +158,7 @@ for s in sents:
 
 if "--apply" not in sys.argv:
     doc = {"audio_end": cues[-1][1], "match": round(ratio, 3), "chapters": chapters,
-           "lines": [{"i": i, **{k: s[k] for k in ("chapter", "start", "end", "text", "notes")}} for i, s in enumerate(sents)],
+           "lines": [{"i": i, **{k: s[k] for k in ("chapter", "start", "end", "text", "notes", "qa", "ask") if k in s}} for i, s in enumerate(sents)],
            "subs": subs}
     (ep / "timeline.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
     (ep / "audio" / "subs.clean.srt").write_text(
@@ -193,5 +209,24 @@ for s in sc:
     for it in pr.get("items", []):
         if it.get("photo") and not it.get("credit") and it.get("asset") in credits:
             it["credit"] = credits[it["asset"]]["credit"]
+# Asset đáp án (answer_of trong asset_plan.json) đang ẩn: tự điền unmask_s = lúc đọc câu [ĐÁP] nằm trong cảnh
+plan_p = ep / "asset_plan.json"
+answer_of = {}
+if plan_p.exists():
+    for x in json.loads(plan_p.read_text(encoding="utf-8")).get("assets", []):
+        if x.get("answer_of"):
+            answer_of[x["file"]] = answer_of[str(Path(x["file"]).with_suffix(".png"))] = x["answer_of"]
+for i, s in enumerate(sc):
+    lo, hi = s["lines"]
+    ans = {q.split(":", 1)[1]: round(max(0.0, x["start"] - starts[i]), 2)
+           for x in sents[lo:hi + 1] for q in x.get("qa", []) if q.startswith("ĐÁP:")}
+    pr = s["props"]
+    hidden = [(x, x.get("asset") or x.get("cutout")) for x in pr.get("layers", []) + pr.get("items", []) if x.get("hide")]
+    if isinstance(pr.get("hide"), dict):
+        hidden.append((pr["hide"], s.get("asset")))
+    for x, f in hidden:
+        q = x.get("answer_of") or answer_of.get(f)
+        if q in ans and "unmask_s" not in x:
+            x["unmask_s"] = ans[q]
 (ep / "scenes.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"{len(sc)} cảnh, {sum(s['duration_s'] for s in sc) / 60:.1f} phút, khớp audio {end / 60:.1f} phút")
