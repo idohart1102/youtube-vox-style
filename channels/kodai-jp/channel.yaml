@@ -1,0 +1,19 @@
+slug: kodai-jp
+name: ""                # TODO: chốt tên kênh
+language: ja
+niche: 古生物・地球史ドキュメンタリー
+audience: "Nam 25-54 ở Nhật, thích khoa học, lịch sử, phim tài liệu"
+pillars: [地獄の時代と大量絶滅, 太古の海, 化石が語る, 失われた世界(日本含む), 巨大生物]
+cadence: "1/day"
+length_min: [15, 25]
+publish_time_local: "18:00"
+made_for_kids: false
+voice:
+  provider: elevenlabs
+  voice_id: Mv8AjrYZCBkdsmDHNwcB   # Ishibashi; dự phòng Daisuke ss9cJxDAEMXP4wfQ3GPr
+  model: eleven_multilingual_v2
+  stability: 0.55
+  similarity: 0.75
+  style: 0.1
+  speed: 0.95
+competitors: [UCVJNS3rAEt3p3kmIQIl6CwA, UCSFw6aAjkEDVxWy1lDn8JJA, UCHqv-Wj2w6-e96JmTIVAykA]

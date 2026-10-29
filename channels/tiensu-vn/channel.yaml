@@ -1,0 +1,29 @@
+slug: tiensu-vn
+name: "Tiền Sử Đất Việt"
+handle: "@tiensudatviet"   # dự phòng: Đất Việt Triệu Năm
+language: vi
+niche: Lịch sử Trái Đất, sinh vật cổ đại và người tiền sử, kể từ phần lãnh thổ Việt Nam ngày nay
+audience: "Nam nữ 18-45 ở Việt Nam, thích khoa học, lịch sử, phim tài liệu; xem trên TV/điện thoại buổi tối và trước khi ngủ"
+pillars: [Kỷ địa chất và đại tuyệt chủng, Người tiền sử và tổ tiên loài người, Việt Nam thời tiền sử, Biển và đất đã mất (Sundaland, Biển Đông), Làm sao ta biết (phương pháp khoa học)]
+pillar_mix: {ky-dia-chat: 0.45, nguoi-tien-su: 0.30, viet-nam: 0.20, phuong-phap: 0.05}
+cadence: "3/week"          # TODO: Sếp chốt
+length_min: [15, 20]
+words_per_min: 180         # âm tiết/phút ở speed 0.95; hiệu chỉnh sau tập TTS đầu
+publish_time_local: "20:00"
+made_for_kids: false
+compilation: "1/month, 60-120 phút, ghép 4-6 tập cùng trụ cột, hậu tố '| Kiến thức trước khi ngủ'"
+shorts_per_episode: 3
+voice:
+  provider: elevenlabs
+  voice_id: ""             # TODO: chọn giọng nam trầm, chất giọng chuẩn/Bắc
+  model: eleven_multilingual_v2
+  stability: 0.55
+  similarity: 0.75
+  style: 0.1
+  speed: 0.95
+competitors:
+  vi: [UCWJrcvVIO14yehvmFnv3HAA, UCXiDLZIgyJ5HNlAtuX_Tq3g, UCXLS35fZ3y8tf-cWdXMZOOg, UC9C33MzaZMF1tadF4zTXliQ, UC-JGZhq1hn-RJVC6DnhSvcw]
+  en_reference: [UCW6H7SKOlO8ShEILHoHUnHA, UCc-J4ihfNvvzKkLEP80Fdeg, UC0OOKthuZKlNfC9qvcqucrg, UC6uGYezl7-dtRlaXohwo5ew]
+seo:
+  keywords_core: [tiền sử Việt Nam, khủng long, người tiền sử, lịch sử Trái Đất, hóa thạch]
+  hashtags_pool: ["#khunglong", "#tiensu", "#lichsuvietnam", "#khampha", "#kienthuc"]   # chọn 3, hashtag mạnh nhất đặt trước

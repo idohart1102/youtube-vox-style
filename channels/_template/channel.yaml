@@ -1,0 +1,19 @@
+slug: CHANGE_ME
+name: ""
+language: ja
+niche: ""
+audience: ""            # tuổi, giới, sở thích
+pillars: []             # 3-6 trụ cột chủ đề
+cadence: "1/day"
+length_min: [15, 25]
+publish_time_local: "18:00"
+made_for_kids: false
+voice:
+  provider: elevenlabs
+  voice_id: ""
+  model: eleven_multilingual_v2
+  stability: 0.55
+  similarity: 0.75
+  style: 0.1
+  speed: 0.95
+competitors: []         # channelId để vidIQ so sánh

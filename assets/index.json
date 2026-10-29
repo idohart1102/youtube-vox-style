@@ -1,0 +1,319 @@
+[
+ {
+  "file": "backgrounds/dusk.jpg",
+  "tags": [
+   "backgrounds",
+   "dusk"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/fire.jpg",
+  "tags": [
+   "backgrounds",
+   "fire"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/forest.jpg",
+  "tags": [
+   "backgrounds",
+   "forest"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/ocean.jpg",
+  "tags": [
+   "backgrounds",
+   "ocean"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/paper.png",
+  "tags": [
+   "backgrounds",
+   "paper"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/parchment.jpg",
+  "tags": [
+   "backgrounds",
+   "parchment"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/seafloor.jpg",
+  "tags": [
+   "backgrounds",
+   "seafloor"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/space.jpg",
+  "tags": [
+   "backgrounds",
+   "space"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/storm.jpg",
+  "tags": [
+   "backgrounds",
+   "storm"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/strata.jpg",
+  "tags": [
+   "backgrounds",
+   "strata"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/sunset.jpg",
+  "tags": [
+   "backgrounds",
+   "sunset"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/underground.jpg",
+  "tags": [
+   "backgrounds",
+   "underground"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/water.jpg",
+  "tags": [
+   "backgrounds",
+   "water"
+  ],
+  "period": "",
+  "style": "",
+  "used_in": []
+ },
+ {
+  "file": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+  "used_in": [
+   "01-test-coldopen"
+  ],
+  "tags": [
+   "rừng",
+   "sông",
+   "kỷ phấn trắng",
+   "bình minh",
+   "karst"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "bg"
+ },
+ {
+  "file": "backgrounds/kpg-troi-cam-mua-lua.jpg",
+  "used_in": [
+   "01-test-coldopen"
+  ],
+  "tags": [
+   "thiên thạch",
+   "mưa lửa",
+   "bầu trời cam",
+   "thảm họa",
+   "kỷ phấn trắng"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "bg"
+ },
+ {
+  "file": "backgrounds/kpg-rung-suong-toi.jpg",
+  "used_in": [
+   "01-test-coldopen"
+  ],
+  "tags": [
+   "rừng",
+   "sương",
+   "hoàng hôn",
+   "bí ẩn",
+   "kỷ phấn trắng"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "bg"
+ },
+ {
+  "file": "creatures/ornithopod-vn-uong-nuoc.png",
+  "used_in": [
+   "01-test-coldopen"
+  ],
+  "tags": [
+   "khủng long nhỏ",
+   "ornithopod",
+   "uống nước"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "cutout"
+ },
+ {
+  "file": "creatures/sauropod-vn-ngang-dau.png",
+  "used_in": [
+   "01-test-coldopen"
+  ],
+  "tags": [
+   "sauropod",
+   "khủng long cổ dài",
+   "cảnh giác"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "cutout"
+ },
+ {
+  "file": "creatures/chim-chich-bong.png",
+  "used_in": [
+   "01-test-coldopen"
+  ],
+  "tags": [
+   "chim",
+   "chích bông",
+   "khủng long còn sống"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "cutout"
+ },
+ {
+  "file": "photos/kpg-ranh-gioi-lop-set.jpg",
+  "used_in": [
+   "01-test-coldopen"
+  ],
+  "tags": [
+   "ranh giới k-pg",
+   "lớp đất",
+   "bằng chứng",
+   "iridi"
+  ],
+  "style": "photo",
+  "source": "real",
+  "role": "bg"
+ },
+ {
+  "file": "creatures/codex-small-theropod.png",
+  "used_in": [
+   "01-test-codex"
+  ],
+  "tags": [
+   "theropod",
+   "cretaceous",
+   "cutout"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "cutout"
+ },
+ {
+  "file": "backgrounds/codex-impact-sky.jpg",
+  "used_in": [
+   "01-test-codex"
+  ],
+  "tags": [
+   "forest",
+   "impact",
+   "cretaceous"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "bg"
+ },
+ {
+  "file": "backgrounds/codex-dark-forest.jpg",
+  "used_in": [
+   "01-test-codex"
+  ],
+  "tags": [
+   "forest",
+   "impact",
+   "dark"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "bg"
+ },
+ {
+  "file": "maps/codex-paleomap-66ma.jpg",
+  "used_in": [
+   "01-test-codex"
+  ],
+  "tags": [
+   "paleomap",
+   "cretaceous"
+  ],
+  "style": "photo",
+  "source": "real",
+  "role": "bg"
+ },
+ {
+  "file": "photos/codex-rock-strata.jpg",
+  "used_in": [
+   "01-test-codex"
+  ],
+  "tags": [
+   "geology",
+   "strata"
+  ],
+  "style": "photo",
+  "source": "real",
+  "role": "bg"
+ },
+ {
+  "file": "backgrounds/codex-dawn-forest.jpg",
+  "used_in": [
+   "01-test-codex"
+  ],
+  "tags": [
+   "forest",
+   "dawn",
+   "cretaceous"
+  ],
+  "style": "Semi-Realistic Paleoart Concept Art",
+  "source": "ai",
+  "role": "bg"
+ }
+]

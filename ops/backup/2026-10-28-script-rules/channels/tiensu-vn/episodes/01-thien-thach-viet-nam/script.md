@@ -1,0 +1,127 @@
+66 triệu năm trước, trên phần đất Việt Nam ngày nay, không ai nghe thấy tiếng nổ.
+Vì nó xảy ra ở phía bên kia hành tinh, cách đây khoảng 15.000 ki-lô-mét.
+Nhưng chưa đầy một giờ sau, mặt đất bắt đầu rung.
+Rồi bầu trời bắt đầu đổ mưa. Không phải mưa nước.
+Đây không phải phim. Nó đã xảy ra thật. Và khoảng ba phần tư số loài trên Trái Đất sắp biến mất.
+Vậy ngày hôm đó, chuyện gì diễn ra trên mảnh đất bạn đang đứng?
+Ở đây có khủng long không? Ai đã sống sót? Và đất đá còn giữ lại dấu vết gì?
+Đến cuối tập, bạn sẽ biết một điều lạ về chính mảnh đất này. 66 triệu năm trước, nó không nằm ở chỗ bây giờ.
+Và mình sẽ chỉ cho bạn một loài khủng long vẫn đang sống ở Việt Nam. Ngay ngoài cửa sổ nhà bạn.
+Mình sẽ đi qua ba chặng. Giờ đầu tiên. Những tháng tối tăm. Và câu hỏi lớn nhất: còn ở Việt Nam thì sao?
+Nếu bạn thích kiểu chuyện này, đăng ký kênh để đi cùng mình những chuyến tiếp theo.
+
+Hãy bắt đầu với thủ phạm. Một khối đá rộng khoảng 10 ki-lô-mét. Dựng đứng lên, nó cao hơn cả đỉnh Everest.
+Nó lao xuống với tốc độ khoảng 20 ki-lô-mét mỗi giây.
+Với tốc độ ấy, bạn đi từ Hà Nội xuống Hải Phòng chỉ trong 5 giây.
+Nó đâm xuống một vùng biển nông ở Mexico bây giờ. Các nhà khoa học gọi nơi đó là chích-xu-lúp.
+Nó không rơi thẳng đứng. Mô phỏng năm 2020 cho thấy nó lao xiên, khoảng 60 độ, từ phía đông bắc. Và đó lại là góc tệ nhất, vì nó hất lên nhiều khí độc nhất.
+Cú va chạm khoét ra một cái hố rộng khoảng 180 ki-lô-mét. Dài hơn cả quãng đường từ Hà Nội vào Thanh Hóa.
+Năng lượng giải phóng gấp hơn một tỷ lần quả bom nguyên tử ở Hiroshima.
+Một tỷ lần. Trong vài giây.
+Đá từ sâu khoảng mười ki-lô-mét bật lên thành một ngọn núi cao hơn Everest. Rồi sụp xuống, chỉ trong vài phút.
+Ta biết điều này nhờ một chuyến khoan năm 2016, ngay giữa hố. Lõi đá kể rằng chỉ trong ngày đầu tiên, hố đã bị lấp bởi lớp đá dày khoảng 130 mét.
+Nhưng nhớ nhé, mình đang đứng cách đó 15.000 ki-lô-mét. Vậy thứ gì đến Việt Nam trước tiên?
+Câu trả lời là sóng địa chấn. Chúng chạy xuyên qua lòng Trái Đất nhanh hơn mọi thứ khác.
+Ở Mexico, cú va chạm mạnh hơn mọi trận động đất con người từng đo. Đến được đây, sóng đã yếu đi nhiều. Nhưng chưa đầy một giờ sau, mặt đất vẫn rung.
+Trong lúc đó, ở Mexico, đá nóng chảy và hơi đá bị hất thẳng ra ngoài không gian.
+Rồi chúng rơi trở lại, khắp hành tinh. Thành một cơn mưa hạt thủy tinh nhỏ hơn hạt gạo.
+Ta biết điều này nhờ một lớp đất mỏng chỉ bằng ngón tay. Nó nằm ở cùng một mốc tuổi tại hàng trăm nơi trên thế giới.
+Trong lớp đất ấy có hạt thủy tinh, và rất nhiều iridium. Kim loại này hiếm trên mặt đất, nhưng lại nhiều trong thiên thạch.
+Đất không chỉ nhớ ngày hôm ấy. Đất còn ghi lại cả giờ.
+Người đọc được lớp đất ấy đầu tiên là hai cha con nhà Alvarez. Năm 1980, họ đo iridium ở một vách đá nước Ý.
+Đúng ở lớp ranh giới, iridium vọt lên gấp hàng chục lần. Họ đưa ra một giả thuyết bị chê là điên rồ: một thiên thạch đã giết khủng long.
+Nhưng hố ở đâu? Phải hơn mười năm sau, người ta mới chắc chắn. Nó bị chôn sâu dưới đá vôi của Mexico, chỉ lộ ra trên bản đồ trọng lực.
+Vụ án có hung khí. Giờ thì có cả hiện trường.
+Có một chi tiết ít ai để ý. Ở Bắc Mỹ, người ta tìm thấy những con cá hóa thạch rất lạ. Trong mang chúng còn mắc hạt thủy tinh từ trời rơi xuống.
+Các nhà khoa học đọc vòng tăng trưởng trong xương của chúng. Kết luận: thiên thạch rơi vào mùa xuân ở Bắc bán cầu.
+Việt Nam cũng ở Bắc bán cầu. Nghĩa là hôm ấy, ở đây, cây đang ra lộc và nhiều con vật đang làm tổ.
+Thời điểm tệ nhất để thế giới tắt đèn.
+Còn một câu hỏi mà giới khoa học vẫn đang cãi nhau. Cơn mưa ấy có làm cả bầu trời nóng như lò nướng không?
+Một phe cho rằng có. Hàng tỷ hạt nóng đỏ cọ vào khí quyển, đủ làm rừng khắp nơi bốc cháy.
+Phe còn lại chỉ ra rằng nhiều lớp ranh giới không có đủ than. Lớp hạt rơi trước có thể đã che bớt sức nóng.
+Phán quyết tạm thời: có cháy, nhưng cháy cả hành tinh hay không thì chưa ai dám chắc.
+Còn sóng thần? Mô phỏng năm 2022 cho thấy gần chỗ va chạm, sóng ban đầu cao tới khoảng một cây số rưỡi.
+Gấp hơn ba lần tòa Landmark 81, tòa nhà cao nhất Việt Nam bây giờ.
+Sóng lan sang khắp các đại dương. Nhưng ở nơi sau này là Việt Nam, có một điều khác hẳn bây giờ.
+Lúc ấy chưa có Biển Đông. Vùng biển này chỉ bắt đầu mở ra khoảng 32 triệu năm trước.
+Vậy phần đất Việt Nam khi đó nằm sâu trong đất liền hay sát bờ biển? Câu trả lời lạ hơn bạn nghĩ. Mình sẽ quay lại ở chặng ba.
+Và tất cả những gì bạn vừa nghe mới chỉ là ngày đầu tiên. Phần chết chóc nhất còn chưa bắt đầu.
+
+Hãy tưởng tượng bạn ngước lên vào buổi trưa. Và Mặt Trời chỉ còn là một đồng xu mờ đục.
+Thủ phạm thứ hai là bụi. Bụi đá nghiền mịn, nhỏ hơn sợi tóc hàng chục lần, lơ lửng trên cao suốt nhiều năm.
+Một nghiên cứu năm 2023 tính rằng quang hợp trên toàn cầu gần như ngừng hẳn. Có thể kéo dài tới gần hai năm.
+Gần hai năm không đủ ánh sáng cho cây. Hãy nghĩ tới một vườn rau bị trùm bạt đen suốt hai mùa mưa.
+Nhưng đây mới là phần khó tin. Thiên thạch rơi trúng một vùng đá giàu thạch cao, tức là giàu lưu huỳnh.
+Chính chuyến khoan giữa hố đã cho thấy một khoảng trống lạ. Lớp đá chứa lưu huỳnh gần như biến mất. Nó đã bốc hơi lên trời.
+Lưu huỳnh bay lên tầng cao, che nắng thêm, rồi rơi xuống thành mưa axit.
+Và đây là chỗ khiến mình rùng mình. Một nghiên cứu năm 2017 tính rằng chỉ khoảng 13 phần trăm bề mặt Trái Đất có loại đá ấy.
+Nếu rơi xuống chỗ khác, có thể khủng long vẫn còn. Chỉ cần rơi lệch đi một chút, lịch sử có thể đã khác.
+Có một sự trớ trêu. Kỷ Phấn trắng mang tên lớp đá phấn. Đá ấy được tạo từ vỏ những sinh vật phù du nhỏ hơn hạt bụi.
+Mưa axit và bóng tối đánh thẳng vào chúng. Và khi tầng đáy của chuỗi thức ăn dưới biển sụp, mọi thứ phía trên cũng sụp theo.
+Nhiệt độ có thể đã giảm tới khoảng 15 độ C. Giống như giữa tháng Sáu, Hà Nội bỗng lạnh như ngày rét nhất mùa đông.
+Ở vùng nhiệt đới. Nơi cây cỏ chưa từng biết mùa đông.
+Hãy thử theo chân một con khủng long ăn cỏ trên mảnh đất này. Đây là tái hiện, dựa trên những gì ta biết.
+Tuần đầu, trời tối và lạnh dần. Lá vẫn còn, nhưng úa dần từng ngày.
+Tháng thứ ba, rừng trơ cành. Bầy của nó thưa dần, con non chết trước.
+Đến cuối năm đầu tiên, nhiều khả năng không còn con nào. Không phải vì lửa, mà vì đói.
+Đó là cách chuỗi thức ăn sụp đổ, từng tầng một.
+Cây chết trước, rồi đến loài ăn cỏ. Loài càng to càng khổ. Có loài mỗi ngày cần hàng trăm ki-lô-gam lá.
+Loài ăn thịt sống thêm một thời gian nhờ xác chết. Rồi cũng hết.
+Khủng long còn có một điểm yếu ít ai nghĩ tới. Trứng của nhiều loài cần ba đến sáu tháng mới nở.
+Trong một thế giới đang chết, ba tháng là quá lâu.
+Dưới biển cũng vậy. Sinh vật phù du chết hàng loạt. Thằn lằn biển khổng lồ biến mất. Cúc đá, những con ốc mực vỏ xoắn từng sống hơn 300 triệu năm, cũng không qua khỏi.
+Trên trời, thằn lằn bay cũng tuyệt chủng. Sau ngày ấy, không còn con nào.
+Nhưng khoan. Trong vụ án này còn có một nghi phạm thứ hai. Và nó ở gần Việt Nam hơn nhiều.
+Lúc ấy, Ấn Độ chưa dính vào châu Á. Nó là một mảng đất trôi giữa đại dương, đang tiến dần lên phía bắc.
+Trên mảng đất ấy, núi lửa đang phun trào ở quy mô khó tưởng tượng. Ngày nay ta gọi đó là cao nguyêĐê-can.
+Phần dung nham còn lại đến hôm nay vẫn phủ khoảng 500.000 ki-lô-mét vuông. Rộng hơn cả diện tích Việt Nam.
+Những lớp dung nham chồng lên nhau, có nơi dày hơn hai ki-lô-mét. Bằng hơn bốn tòa Landmark 81 xếp chồng lên nhau.
+Núi lửa phun suốt hàng trăm nghìn năm, cả trước và sau ngày thiên thạch rơi.
+Vậy ai mới là kẻ giết người? Năm 2019, hai nhóm cùng đo tuổi dung nham Đê-can. Họ ra hai kết luận khác nhau.
+Một nhóm cho rằng đợt phun lớn đã làm hệ sinh thái yếu đi từ trước.
+Nhóm kia thấy phần lớn dung nham phun ra sau va chạm, nên khó là thủ phạm chính.
+Năm 2020, một nghiên cứu khác đọc nhiệt độ đại dương cổ. Kết luận: núi lửa làm Trái Đất ấm lên một chút, rồi thôi. Cú đánh chí mạng là thiên thạch.
+Phán quyết tạm thời của phần lớn giới khoa học: thiên thạch là hung thủ chính. Đê-can có thể là đồng phạm, nhưng vai trò bao nhiêu thì vẫn còn đang xử.
+Và Ấn Độ chưa xong vai trò của mình. Vài chục triệu năm sau, chính nó sẽ đẩy mảnh đất Việt Nam đi.
+
+Giờ thì đến câu hỏi mình đã hứa từ đầu. Trong khi thế giới tối sầm, mảnh đất Việt Nam ở đâu?
+Và đây là điều lạ nhất của tập này. Khi ấy, mảnh đất này không nằm ở chỗ bây giờ.
+Khoảng 50 triệu năm trước, Ấn Độ đâm vào châu Á. Chậm mà không dừng, như một chiếc xe tải húc vào bức tường đất.
+Cú húc ấy ép cả khối đất Đông Dương trượt ra phía đông nam. Đường trượt chính chạy gần trùng dòng sông Hồng bây giờ.
+Nhiều nhà địa chất cho rằng khối đất này đã trượt hàng trăm ki-lô-mét. Có nghiên cứu ước tới khoảng 700 ki-lô-mét. Phe khác cho rằng ít hơn nhiều.
+Bảy trăm ki-lô-mét là gần bằng quãng đường từ Hà Nội vào Huế.
+Nghĩa là con sông Hồng bạn biết là vết sẹo của một cú va chạm lục địa.
+Ta biết điều này nhờ đá ở dãy núi Con Voi. Dãy núi ấy chạy dọc sông Hồng qua Lào Cai và Yên Bái. Đá ở đó bị nung nóng và kéo dãn như kẹo.
+Tuổi khoáng vật trong đá cho thấy cú trượt mạnh nhất diễn ra từ 35 đến 17 triệu năm trước. Lâu sau ngày thiên thạch rơi.
+Vậy ngày thiên thạch rơi, phần đất Việt Nam nằm lùi về phía tây bắc. Nó gắn liền với lục địa, và chưa có Biển Đông trước mặt.
+Ở đó có những dòng sông và những khu rừng nóng ẩm. Gần như chắc chắn có cá sấu và rùa. Nhưng có khủng long không?
+Đây là chỗ câu chuyện trở nên kỳ lạ. Thái Lan đã đặt tên cho hơn chục loài khủng long. Việt Nam thì chưa có lấy một bộ xương được xác nhận.
+Còn ở phía bắc, cách Hà Nội khoảng 1.000 ki-lô-mét, người ta đào được hàng nghìn quả trứng khủng long. Đúng vào thời cuối cùng của chúng.
+Ở đó có cả những loài khủng long mỏ như mỏ vẹt, dài chừng một đến hai mét. Có con chết ngay trên ổ trứng.
+Một nghìn ki-lô-mét. Với một con khủng long, đó chỉ là khoảng một tháng đi bộ.
+Nên nhiều khả năng ngày ấy, khủng long cũng đi lại trên phần đất Việt Nam ngày nay. Chỉ là đất ở đây chưa trả lại xương cho ta.
+Manh mối gần nhất là một mẩu xương đào được ở Trị An, Đồng Nai, năm 2019. Nó chưa được định danh. Và có thể còn không phải khủng long.
+Vì sao lại như vậy? Mình sẽ phá vụ án ấy ở tập sau.
+Giờ hãy tua nhanh. Sau bóng tối, thứ mọc lại đầu tiên trên đất cháy là dương xỉ.
+Các nhà khoa học gọi đó là "đỉnh dương xỉ". Trong lớp đất ngay trên ranh giới, bào tử dương xỉ bỗng chiếm gần hết.
+Ai sống sót? Phần lớn là những kẻ nhỏ bé. Con vật đào hang, con vật sống dưới nước ngọt, con vật ăn gì cũng được.
+Trên cạn, gần như không con vật nào nặng hơn khoảng 25 ki-lô-gam sống sót. Cỡ một đứa trẻ tám tuổi.
+Cá sấu và rùa sống sót tốt hơn nhiều. Dưới đáy sông, thức ăn đến từ xác lá mục, không cần nắng mỗi ngày.
+Cá sấu còn có thể nhịn ăn nhiều tháng liền. Trong một thế giới đói, đó là siêu năng lực.
+Và đây là nơi Việt Nam lên tiếng. Ở mỏ than Na Dương, Lạng Sơn, gần 30 triệu năm sau, cá sấu và rùa vẫn sinh sôi.
+Có một loài cá sấu cổ được đặt tên theo chính nơi này: ô-ri-en-ta-lô-su-khút na-dương-en-xít.
+Còn có một loài rùa mai tròn dẹt được đặt tên là bánh-xèo-chê-lít. Đúng vậy, rùa bánh xèo.
+Và ở cùng mỏ than ấy còn có an-thra-đa-pít, một loài linh trưởng cổ. Những con thú nhỏ sống sót ngày xưa đã đi một chặng rất xa.
+Thế giới dưới mỏ than ấy, mình sẽ kể riêng trong một tập khác.
+Còn thú có vú, tổ tiên xa của bạn, khi ấy chỉ to cỡ con chuột.
+Nhưng chỉ khoảng 100.000 năm sau, chúng đã to cỡ con gấu mèo. Khoảng 700.000 năm sau, đã có con nặng khoảng 50 ki-lô-gam.
+Thế giới không có khủng long khổng lồ là thế giới bỏ trống. Và thú có vú chạy vào lấp chỗ.
+
+Nhưng có một sự thật mình giữ lại đến cuối.
+Ngày hôm đó, khủng long không chết hết.
+Một nhánh nhỏ, có lông và biết bay, đã lách qua thảm họa. Nhiều khả năng chúng sống dưới mặt đất, ăn hạt, khi rừng đã đổ hết.
+Hậu duệ của chúng đang hót ngoài cửa sổ nhà bạn. Việt Nam bây giờ có hơn 800 loài chim. Mỗi loài là một con khủng long còn sống.
+Lần tới bạn nhìn một con gà, hãy nhìn bàn chân của nó.
+Một lớp đất mỏng bằng ngón tay đã ghi lại ngày thế giới gần tắt. Và cả cách sự sống quay lại. Đất không quên.
+Còn bạn thì sao? Bạn muốn đứng trên đất Việt Nam một ngày trước, hay một năm sau khi thiên thạch rơi? Viết lý do vào bình luận nhé.
+Vì sao Việt Nam chưa tìm thấy hóa thạch khủng long nào? Câu trả lời nằm ở tập tiếp theo.

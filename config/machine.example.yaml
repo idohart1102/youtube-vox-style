@@ -1,0 +1,6 @@
+# Cấu hình riêng của MÁY NÀY (copy thành machine.yaml, không đưa vào git)
+browser_executable: ""      # để trống = Remotion tự tải; hoặc đường dẫn chrome-headless-shell
+ffmpeg: ffmpeg              # hoặc đường dẫn đầy đủ
+python: python3
+render_concurrency: 4       # Mac mini M-series: 4-6
+assets_dir: assets          # có thể trỏ ra thư mục Drive đồng bộ

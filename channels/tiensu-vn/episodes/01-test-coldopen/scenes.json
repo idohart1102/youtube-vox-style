@@ -1,0 +1,305 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "s1",
+   "lines": [
+    0,
+    0
+   ],
+   "component": "Parallax",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "transition": "cut",
+   "props": {
+    "cam": "in",
+    "recon": true,
+    "layers": [
+     {
+      "asset": "creatures/ornithopod-vn-uong-nuoc.png",
+      "x": 620,
+      "y": 940,
+      "h": 380,
+      "depth": 0.8,
+      "at_s": 0.4
+     },
+     {
+      "asset": "creatures/ornithopod-vn-uong-nuoc.png",
+      "x": 1250,
+      "y": 930,
+      "h": 250,
+      "depth": 0.45,
+      "at_s": 1.0
+     }
+    ],
+    "cards": [
+     {
+      "text": "66 triệu năm trước",
+      "at_s": 0.3
+     }
+    ]
+   },
+   "duration_s": 4.705,
+   "narration": "66 triệu năm trước, trên phần đất Việt Nam ngày nay, không ai nghe thấy tiếng nổ."
+  },
+  {
+   "id": "s2",
+   "lines": [
+    1,
+    1
+   ],
+   "component": "GeoMap",
+   "props": {
+    "center": [
+     10,
+     15
+    ],
+    "scale": 260,
+    "markers": [
+     {
+      "lon": -89.5,
+      "lat": 21.3,
+      "label": "Chicxulub",
+      "at_s": 0.3
+     },
+     {
+      "lon": 105.8,
+      "lat": 21.0,
+      "label": "Việt Nam",
+      "at_s": 0.8
+     }
+    ],
+    "arrows": [
+     {
+      "from": [
+       -89.5,
+       21.3
+      ],
+      "to": [
+       105.8,
+       21.0
+      ],
+      "at_s": 1.2
+     }
+    ],
+    "cards": [
+     {
+      "text": "15.000 km",
+      "at_s": 0.0
+     }
+    ]
+   },
+   "duration_s": 4.663,
+   "narration": "Vì nó xảy ra ở phía bên kia hành tinh, cách đây khoảng 15.000 km."
+  },
+  {
+   "id": "s3",
+   "lines": [
+    2,
+    4
+   ],
+   "component": "Parallax",
+   "asset": "backgrounds/kpg-troi-cam-mua-lua.jpg",
+   "props": {
+    "cam": "out",
+    "recon": true,
+    "layers": [
+     {
+      "asset": "creatures/sauropod-vn-ngang-dau.png",
+      "x": 1150,
+      "y": 1000,
+      "h": 640,
+      "depth": 0.7,
+      "at_s": 0.3,
+      "enter": "rise"
+     }
+    ]
+   },
+   "duration_s": 5.366,
+   "narration": "Nhưng chưa đầy một giờ sau, mặt đất bắt đầu rung. Rồi bầu trời bắt đầu đổ mưa. Không phải mưa nước."
+  },
+  {
+   "id": "s4",
+   "lines": [
+    5,
+    7
+   ],
+   "component": "GeoClock",
+   "asset": "photos/kpg-ranh-gioi-lop-set.jpg",
+   "props": {
+    "from_ma": 0,
+    "to_ma": 66,
+    "badges": [
+     {
+      "type": "xac-nhan",
+      "at_s": 0.0
+     }
+    ]
+   },
+   "duration_s": 5.75,
+   "narration": "Đây không phải phim. Nó đã xảy ra thật. Và khoảng ba phần tư số loài trên Trái Đất sắp biến mất."
+  },
+  {
+   "id": "s5",
+   "lines": [
+    8,
+    8
+   ],
+   "component": "GeoMap",
+   "props": {
+    "center": [
+     107,
+     15
+    ],
+    "scale": 2300,
+    "cam": "in"
+   },
+   "duration_s": 3.631,
+   "narration": "Vậy ngày hôm đó, chuyện gì diễn ra trên mảnh đất bạn đang đứng?"
+  },
+  {
+   "id": "s6",
+   "lines": [
+    9,
+    11
+   ],
+   "component": "Parallax",
+   "asset": "backgrounds/kpg-rung-suong-toi.jpg",
+   "props": {
+    "cam": "left",
+    "recon": true,
+    "layers": [
+     {
+      "asset": "creatures/sauropod-vn-ngang-dau.png",
+      "x": 1350,
+      "y": 820,
+      "h": 330,
+      "depth": 0.2,
+      "at_s": 0.5,
+      "enter": "fade",
+      "sticker": false
+     },
+     {
+      "asset": "creatures/ornithopod-vn-uong-nuoc.png",
+      "x": 600,
+      "y": 940,
+      "h": 330,
+      "depth": 0.9,
+      "at_s": 1.6
+     }
+    ]
+   },
+   "duration_s": 4.634,
+   "narration": "Ở đây có khủng long không? Ai đã sống sót? Và đất đá còn giữ lại dấu vết gì?"
+  },
+  {
+   "id": "s7",
+   "lines": [
+    12,
+    13
+   ],
+   "component": "Collage",
+   "asset": "backgrounds/kpg-rung-suong-toi.jpg",
+   "props": {
+    "items": [
+     {
+      "asset": "photos/kpg-ranh-gioi-lop-set.jpg",
+      "x": 960,
+      "y": 500,
+      "w": 1100,
+      "photo": true,
+      "rot": -2,
+      "credit": "Ảnh: M. Schaap (TheFurther21) · CC BY-SA 4.0"
+     }
+    ],
+    "annotate": [
+     {
+      "type": "circle",
+      "x": 1000,
+      "y": 620,
+      "w": 420,
+      "h": 200,
+      "at_s": 2
+     }
+    ]
+   },
+   "duration_s": 7.059,
+   "narration": "Đến cuối tập, bạn sẽ biết một điều lạ về chính mảnh đất này. 66 triệu năm trước, nó không nằm ở chỗ bây giờ."
+  },
+  {
+   "id": "s8",
+   "lines": [
+    14,
+    15
+   ],
+   "component": "Collage",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "props": {
+    "items": [
+     {
+      "asset": "creatures/ornithopod-vn-uong-nuoc.png",
+      "x": 620,
+      "y": 560,
+      "w": 760,
+      "rot": -3
+     },
+     {
+      "asset": "creatures/chim-chich-bong.png",
+      "x": 1380,
+      "y": 540,
+      "w": 460,
+      "rot": 3,
+      "at_s": 1.6
+     }
+    ],
+    "annotate": [
+     {
+      "type": "arrow",
+      "from": [
+       960,
+       300
+      ],
+      "to": [
+       1200,
+       420
+      ],
+      "at_s": 2.4
+     }
+    ]
+   },
+   "duration_s": 5.416,
+   "narration": "Và mình sẽ chỉ cho bạn một loài khủng long vẫn đang sống ở Việt Nam. Ngay ngoài cửa sổ nhà bạn."
+  },
+  {
+   "id": "s9",
+   "lines": [
+    16,
+    19
+   ],
+   "component": "TitleCard",
+   "asset": "backgrounds/kpg-troi-cam-mua-lua.jpg",
+   "transition": "dip",
+   "props": {
+    "kicker": "3 CHẶNG",
+    "title": "Ba chặng đường"
+   },
+   "duration_s": 6.175,
+   "narration": "Mình sẽ đi qua ba chặng. Giờ đầu tiên. Những tháng tối tăm. Và câu hỏi lớn nhất: còn ở Việt Nam thì sao?"
+  },
+  {
+   "id": "s10",
+   "lines": [
+    20,
+    20
+   ],
+   "component": "KenBurns",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "transition": "dip",
+   "props": {
+    "z0": 1.06,
+    "z1": 1.0
+   },
+   "duration_s": 4.452,
+   "narration": "Nếu bạn thích kiểu chuyện này, đăng ký kênh để đi cùng mình những chuyến tiếp theo."
+  }
+ ]
+}

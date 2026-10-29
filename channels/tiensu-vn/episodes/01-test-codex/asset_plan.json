@@ -1,0 +1,76 @@
+{
+  "species": {
+    "small-theropod": "A small generalized Late Cretaceous feathered theropod, brown and olive plumage, horizontal spine, long balancing tail, anatomically correct hindlimbs, no claim of a specific Vietnamese fossil species"
+  },
+  "assets": [
+    {
+      "id": "codex-small-dinosaur",
+      "kind": "ai",
+      "role": "cutout",
+      "file": "creatures/codex-small-theropod.png",
+      "species": "small-theropod",
+      "prompt": "One small feathered theropod standing alert, full body side view, head raised looking right, feet fully visible, isolated on transparent background, scientifically plausible anatomy, no text",
+      "tags": [
+        "theropod",
+        "cretaceous",
+        "cutout"
+      ]
+    },
+    {
+      "id": "codex-impact-sky",
+      "kind": "ai",
+      "role": "bg",
+      "file": "backgrounds/codex-impact-sky.jpg",
+      "prompt": "Late Cretaceous tropical riverside forest in the region of present-day Vietnam, broad river foreground with subtle concentric ripples, ominous orange sky with thin distant glowing ejecta streaks, cinematic semi-realistic paleoart concept art, no animals, no people, no text",
+      "tags": [
+        "forest",
+        "impact",
+        "cretaceous"
+      ]
+    },
+    {
+      "id": "codex-dark-forest",
+      "kind": "ai",
+      "role": "bg",
+      "file": "backgrounds/codex-dark-forest.jpg",
+      "prompt": "Late Cretaceous tropical forest in the region of present-day Vietnam under dim post-impact skies, subdued ash gray canopy and sparse shafts of warm light, ferns beside a quiet river, cinematic semi-realistic paleoart concept art, no animals, no people, no text",
+      "tags": [
+        "forest",
+        "impact",
+        "dark"
+      ]
+    },
+    {
+      "id": "codex-rock-strata",
+      "kind": "real",
+      "file": "photos/codex-rock-strata.jpg",
+      "query": "sedimentary rock layers geological outcrop photograph CC0 public domain USGS images not Wikimedia HTTP429",
+      "tags": [
+        "geology",
+        "strata"
+      ]
+    },
+    {
+      "id": "codex-dawn-forest",
+      "kind": "ai",
+      "role": "bg",
+      "file": "backgrounds/codex-dawn-forest.jpg",
+      "prompt": "Late Cretaceous lush tropical riverside forest in the region of present-day Vietnam at dawn, tree ferns and araucaria, misty limestone hills, broad clear river, rich detailed cinematic semi-realistic paleoart concept art, no animals, no people, no text",
+      "tags": [
+        "forest",
+        "dawn",
+        "cretaceous"
+      ]
+    },
+    {
+      "id": "tailorbird-reuse",
+      "kind": "reuse",
+      "role": "cutout",
+      "file": "creatures/chim-chich-bong.png",
+      "tags": [
+        "chim",
+        "chích bông"
+      ]
+    }
+  ]
+}

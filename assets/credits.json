@@ -1,0 +1,23 @@
+{
+ "photos/kpg-ranh-gioi-lop-set.jpg": {
+  "title": "K-Pg boundary at Zumaia",
+  "author": "M. Schaap (TheFurther21)",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:K-Pg_boundary_at_Zumaia.jpg",
+  "credit": "Ảnh: M. Schaap (TheFurther21) · CC BY-SA 4.0"
+ },
+ "maps/codex-paleomap-66ma.jpg": {
+  "title": "Figure 6. Late Cretaceous paleogeographic world map at 66 Ma, modified from Scotese (2014), showing fossil elopomorph localities",
+  "author": "Summer A. Ostrowski; paleogeographic map adapted from Christopher R. Scotese",
+  "license": "CC BY 4.0",
+  "url": "https://palaeo-electronica.org/content/2021/3446-madagascar-elopomorpha",
+  "credit": "Ảnh: Summer A. Ostrowski; paleogeographic map adapted from Christopher R. Scotese · CC BY 4.0"
+ },
+ "photos/codex-rock-strata.jpg": {
+  "title": "Sedimentary rock",
+  "author": "USGS",
+  "license": "Public domain",
+  "url": "https://www.usgs.gov/media/images/sedimentary-rock",
+  "credit": "Ảnh: USGS · Public domain"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "species": {
+  "ornithopod-vn": "small herbivorous ornithopod dinosaur about 2 m long, bipedal, slender tail, sandy-brown skin with darker mottling, scientifically accurate Late Cretaceous anatomy",
+  "sauropod-vn": "long-necked titanosaur sauropod about 18 m long, column-like legs, grey-olive wrinkled skin with faint darker stripes, small head, scientifically accurate anatomy"
+ },
+ "assets": [
+  {"id": "bg-rung-song", "kind": "ai", "role": "bg", "file": "backgrounds/kpg-rung-bo-song-binh-minh.jpg", "prompt": "Late Cretaceous tropical riverside forest in what is now northern Vietnam, limestone karst hills in morning mist, calm river in the foreground with open bank on the lower left, ferns and cycads, golden dawn light, no animals", "tags": ["rừng", "sông", "kỷ phấn trắng", "bình minh", "karst"]},
+  {"id": "bg-troi-cam", "kind": "ai", "role": "bg", "file": "backgrounds/kpg-troi-cam-mua-lua.jpg", "prompt": "the same kind of Late Cretaceous tropical forest landscape a few hours after the Chicxulub impact, sky turning deep orange and red, countless small glowing streaks of re-entering ejecta falling like rain, ominous haze, no animals", "tags": ["thiên thạch", "mưa lửa", "bầu trời cam", "thảm họa", "kỷ phấn trắng"]},
+  {"id": "bg-rung-suong", "kind": "ai", "role": "bg", "file": "backgrounds/kpg-rung-suong-toi.jpg", "prompt": "dark misty Late Cretaceous jungle at dusk, tall conifers and tree ferns fading into fog, mysterious mood, open clearing in the middle ground, no animals", "tags": ["rừng", "sương", "hoàng hôn", "bí ẩn", "kỷ phấn trắng"]},
+  {"id": "ornithopod-uong", "kind": "ai", "role": "cutout", "file": "creatures/ornithopod-vn-uong-nuoc.png", "species": "ornithopod-vn", "prompt": "the ornithopod bending down to drink, full side view facing right", "tags": ["khủng long nhỏ", "ornithopod", "uống nước"]},
+  {"id": "sauropod-ngang", "kind": "ai", "role": "cutout", "file": "creatures/sauropod-vn-ngang-dau.png", "species": "sauropod-vn", "prompt": "the sauropod standing and raising its head in alarm, full side view facing left", "tags": ["sauropod", "khủng long cổ dài", "cảnh giác"]},
+  {"id": "chich-bong", "kind": "ai", "role": "cutout", "file": "creatures/chim-chich-bong.png", "prompt": "a common tailorbird (Orthotomus sutorius) perched on a short twig, side view, realistic bird illustration, olive-green back, rufous crown, cocked tail", "tags": ["chim", "chích bông", "khủng long còn sống"]},
+  {"id": "kpg-ranh-gioi", "kind": "real", "file": "photos/kpg-ranh-gioi-lop-set.jpg", "query": "photograph of the Cretaceous–Paleogene (K–Pg / K–T) boundary clay layer in a rock outcrop, clearly showing the thin boundary layer between rock strata", "tags": ["ranh giới k-pg", "lớp đất", "bằng chứng", "iridi"]}
+ ]
+}

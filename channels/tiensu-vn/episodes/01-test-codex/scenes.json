@@ -1,0 +1,291 @@
+{
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "s01",
+      "lines": [
+        0,
+        0
+      ],
+      "component": "Parallax",
+      "asset": "backgrounds/codex-dawn-forest.jpg",
+      "props": {
+        "cam": "in",
+        "recon": true,
+        "layers": [
+          {
+            "asset": "creatures/codex-small-theropod.png",
+            "x": 1130,
+            "y": 870,
+            "h": 490,
+            "depth": 0.65,
+            "at_s": 0.5,
+            "enter": "rise",
+            "drift": 70
+          }
+        ],
+        "cards": [
+          {
+            "text": "66 triệu năm trước",
+            "at_s": 0.3
+          }
+        ]
+      },
+      "transition": "cut",
+      "duration_s": 4.705,
+      "narration": "66 triệu năm trước, trên phần đất Việt Nam ngày nay, không ai nghe thấy tiếng nổ."
+    },
+    {
+      "id": "s02",
+      "lines": [
+        1,
+        1
+      ],
+      "component": "GeoMap",
+      "asset": "",
+      "props": {
+        "center": [
+          20,
+          18
+        ],
+        "scale": 260,
+        "cam": "out",
+        "highlight": [
+          "704"
+        ],
+        "markers": [
+          {
+            "lon": -89.5,
+            "lat": 21.4,
+            "label": "Mexico",
+            "at_s": 0
+          },
+          {
+            "lon": 106,
+            "lat": 17,
+            "label": "Việt Nam",
+            "at_s": 0.5
+          }
+        ],
+        "arrows": [
+          {
+            "from": [
+              -89.5,
+              21.4
+            ],
+            "to": [
+              106,
+              17
+            ],
+            "at_s": 1
+          }
+        ],
+        "cards": [
+          {
+            "text": "15.000 km",
+            "at_s": 0.0
+          }
+        ]
+      },
+      "transition": "fade",
+      "duration_s": 4.663,
+      "narration": "Vì nó xảy ra ở phía bên kia hành tinh, cách đây khoảng 15.000 km."
+    },
+    {
+      "id": "s03",
+      "lines": [
+        2,
+        4
+      ],
+      "component": "Parallax",
+      "asset": "backgrounds/codex-impact-sky.jpg",
+      "props": {
+        "cam": "left",
+        "recon": true,
+        "layers": [
+          {
+            "asset": "creatures/codex-small-theropod.png",
+            "x": 1320,
+            "y": 870,
+            "h": 490,
+            "depth": 0.65,
+            "at_s": 0.5,
+            "enter": "rise",
+            "drift": 40
+          }
+        ]
+      },
+      "transition": "cut",
+      "duration_s": 5.366,
+      "narration": "Nhưng chưa đầy một giờ sau, mặt đất bắt đầu rung. Rồi bầu trời bắt đầu đổ mưa. Không phải mưa nước."
+    },
+    {
+      "id": "s04",
+      "lines": [
+        5,
+        7
+      ],
+      "component": "GeoClock",
+      "asset": "backgrounds/codex-dark-forest.jpg",
+      "props": {
+        "from_ma": 66,
+        "to_ma": 66,
+        "label": "3/4 số loài",
+        "badges": [
+          {
+            "type": "xac-nhan",
+            "at_s": 0.0
+          }
+        ]
+      },
+      "transition": "fade",
+      "duration_s": 5.75,
+      "narration": "Đây không phải phim. Nó đã xảy ra thật. Và khoảng ba phần tư số loài trên Trái Đất sắp biến mất."
+    },
+    {
+      "id": "s05",
+      "lines": [
+        8,
+        9
+      ],
+      "component": "GeoMap",
+      "asset": "",
+      "props": {
+        "center": [
+          106,
+          17
+        ],
+        "scale": 1300,
+        "cam": "in",
+        "highlight": [
+          "704"
+        ],
+        "markers": [
+          {
+            "lon": 106,
+            "lat": 17,
+            "label": "Việt Nam ngày nay",
+            "at_s": 0
+          }
+        ]
+      },
+      "transition": "fade",
+      "duration_s": 4.968,
+      "narration": "Vậy ngày hôm đó, chuyện gì diễn ra trên mảnh đất bạn đang đứng? Ở đây có khủng long không?"
+    },
+    {
+      "id": "s06",
+      "lines": [
+        10,
+        12
+      ],
+      "component": "KenBurns",
+      "asset": "",
+      "props": {
+        "z0": 1,
+        "z1": 1.04,
+        "x0": 0,
+        "x1": 0
+      },
+      "transition": "dip",
+      "duration_s": 7.047,
+      "narration": "Ai đã sống sót? Và đất đá còn giữ lại dấu vết gì? Đến cuối tập, bạn sẽ biết một điều lạ về chính mảnh đất này."
+    },
+    {
+      "id": "s07",
+      "lines": [
+        13,
+        14
+      ],
+      "component": "Collage",
+      "asset": "backgrounds/codex-dark-forest.jpg",
+      "props": {
+        "recon": true,
+        "items": [
+          {
+            "asset": "photos/codex-rock-strata.jpg",
+            "x": 560,
+            "y": 500,
+            "w": 690,
+            "at_s": 0,
+            "rot": -2,
+            "photo": true,
+            "credit": "Ảnh: USGS · Public domain"
+          },
+          {
+            "asset": "creatures/chim-chich-bong.png",
+            "x": 1340,
+            "y": 520,
+            "w": 610,
+            "at_s": 3.3,
+            "rot": 0
+          }
+        ],
+        "label": "Chích bông"
+      },
+      "transition": "fade",
+      "duration_s": 7.379,
+      "narration": "66 triệu năm trước, nó không nằm ở chỗ bây giờ. Và mình sẽ chỉ cho bạn một loài khủng long vẫn đang sống ở Việt Nam."
+    },
+    {
+      "id": "s08",
+      "lines": [
+        15,
+        18
+      ],
+      "component": "GeoMap",
+      "asset": "",
+      "props": {
+        "center": [
+          106,
+          17
+        ],
+        "scale": 2200,
+        "cam": "out",
+        "highlight": [
+          "704"
+        ],
+        "markers": [
+          {
+            "lon": 106,
+            "lat": 17,
+            "label": "Việt Nam",
+            "at_s": 0
+          }
+        ]
+      },
+      "transition": "fade",
+      "duration_s": 4.661,
+      "narration": "Ngay ngoài cửa sổ nhà bạn. Mình sẽ đi qua ba chặng. Giờ đầu tiên. Những tháng tối tăm."
+    },
+    {
+      "id": "s09",
+      "lines": [
+        19,
+        20
+      ],
+      "component": "Parallax",
+      "asset": "backgrounds/codex-dawn-forest.jpg",
+      "props": {
+        "cam": "right",
+        "recon": true,
+        "layers": [
+          {
+            "asset": "creatures/codex-small-theropod.png",
+            "x": 1280,
+            "y": 870,
+            "h": 490,
+            "depth": 0.65,
+            "at_s": 0.5,
+            "enter": "rise",
+            "drift": -60
+          }
+        ],
+        "label": "Đăng ký kênh"
+      },
+      "transition": "fade",
+      "duration_s": 7.312,
+      "narration": "Và câu hỏi lớn nhất: còn ở Việt Nam thì sao? Nếu bạn thích kiểu chuyện này, đăng ký kênh để đi cùng mình những chuyến tiếp theo."
+    }
+  ]
+}

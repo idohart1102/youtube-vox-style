@@ -1,0 +1,19 @@
+# Nguồn và quy tắc fact/ảnh — tiensu-vn
+Đọc khi viết brief/script và khi chọn ảnh. Bản đầy đủ: research/niches/tiensu-vn-2026-10.md
+
+## Quy tắc fact
+- Mỗi fact có 1 nguồn khoa học (DOI/URL) ghi trong brief. Fact chưa chắc gắn badge Có thể hoặc Còn tranh cãi.
+- Các mốc đã chốt:
+  - Gigantopithecus ở Thẩm Khuyên: Còn tranh cãi (Ciochon 1996 vs Zhang & Harrison 2017).
+  - Mái Đá Ngườm: "khoảng 100.000-125.000 năm", số liệu sơ bộ 2025.
+  - TBH1 Bình Minh: khai quật 2018, công bố 2025 (Stimpson, Proc R Soc B), khoảng 12.500-12.000 năm.
+  - Khủng long VN: chưa có hoá thạch được xác nhận. Xương Jura ở Trị An (2019) chưa định danh, có thể là bò sát biển.
+  - Mán Bạc: Lipson 2018 và McColl 2018 (Science, hai bài riêng).
+- Nguồn chính: Thẩm Khuyên/Thẩm Hai (Ciochon 1996; Knyaz 2022); Con Moong (McAdams 2020); hang Hiem (Masojć 2023); Sundaland (Hanebuth 2000); khối Đông Dương (Metcalfe 2002); P-T (Lũng Cẩm USGS, Ellwood 2020); Na Dương (Chavasseau 2019).
+
+## Quy tắc ảnh (kênh bật kiếm tiền)
+- Được dùng, có ghi nguồn: Commons (CC BY, CC BY-SA, PD, CC0); Smithsonian CC0; USGS/NASA/NOAA; NHM London CC BY; hình bài báo CC BY; PhyloPic CC0/CC BY.
+- Cấm khi chưa có giấy phép bằng văn bản: ảnh báo chí (VnExpress, VTV…), ảnh Viện Khảo cổ, Bảo tàng Thiên nhiên VN, VAST. Không áp dụng "fair use 5 giây".
+- Đã có ảnh mở: hang Hiem (CC BY-SA, Masojć), Tràng An (PD), TBH1 (CC BY, Stimpson), Mán Bạc (CC BY, Vlok 2021), Anthradapis (CC BY, Chavasseau), bản đồ Sundaland (CC BY-SA 3.0, Dörrbecker), răng Thẩm Hai CT (CC BY, Knyaz).
+- Chưa có ảnh mở: Ngườm, Con Moong, xương Trị An. Dùng paleoart tự vẽ.
+- Mẫu ghi nguồn trên màn hình và trong mô tả: "Ảnh: <tác giả> (<năm>), <tạp chí>, <giấy phép>. Nguồn: <URL>. Đã cắt khung, thêm chú thích tiếng Việt."
