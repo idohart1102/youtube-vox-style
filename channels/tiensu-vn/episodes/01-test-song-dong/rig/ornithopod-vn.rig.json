@@ -1,0 +1,439 @@
+{
+ "source": "creatures/ornithopod-vn-uong-nuoc.png",
+ "out": "creatures/rig/ornithopod-vn",
+ "scale": 0.5,
+ "pad": {
+  "top": 140,
+  "right": 130
+ },
+ "outline_from": "alert",
+ "bones": [
+  {
+   "name": "neck",
+   "pivot": [
+    1490,
+    345
+   ],
+   "feather": 55,
+   "poly": [
+    [
+     1490,
+     60
+    ],
+    [
+     1990,
+     60
+    ],
+    [
+     1990,
+     800
+    ],
+    [
+     1560,
+     800
+    ],
+    [
+     1520,
+     440
+    ],
+    [
+     1450,
+     330
+    ]
+   ],
+   "exclude": [
+    [
+     [
+      1320,
+      370
+     ],
+     [
+      1475,
+      395
+     ],
+     [
+      1475,
+      620
+     ],
+     [
+      1320,
+      620
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "head",
+   "pivot": [
+    1720,
+    500
+   ],
+   "feather": 28,
+   "poly": [
+    [
+     1720,
+     400
+    ],
+    [
+     1990,
+     400
+    ],
+    [
+     1990,
+     800
+    ],
+    [
+     1660,
+     800
+    ],
+    [
+     1660,
+     560
+    ]
+   ]
+  },
+  {
+   "name": "tail",
+   "pivot": [
+    930,
+    130
+   ],
+   "feather": 70,
+   "poly": [
+    [
+     -40,
+     -60
+    ],
+    [
+     850,
+     -60
+    ],
+    [
+     850,
+     300
+    ],
+    [
+     -40,
+     300
+    ]
+   ]
+  },
+  {
+   "name": "tail2",
+   "pivot": [
+    470,
+    85
+   ],
+   "feather": 60,
+   "poly": [
+    [
+     -40,
+     -60
+    ],
+    [
+     420,
+     -60
+    ],
+    [
+     420,
+     240
+    ],
+    [
+     -40,
+     240
+    ]
+   ]
+  }
+ ],
+ "clips": {
+  "drink": {
+   "n": 90,
+   "bones": {
+    "neck": {
+     "amp": 2.2,
+     "cycles": 2
+    },
+    "head": {
+     "amp": 2.5,
+     "cycles": 2,
+     "phase": 0.15
+    },
+    "tail": {
+     "amp": 1.4,
+     "cycles": 1
+    },
+    "tail2": {
+     "amp": 2.2,
+     "cycles": 1,
+     "phase": 0.2
+    }
+   }
+  },
+  "raise": {
+   "n": 24,
+   "bones": {
+    "neck": {
+     "from": 0,
+     "to": -40
+    },
+    "head": {
+     "from": 0,
+     "to": -8
+    },
+    "tail": {
+     "from": 0,
+     "to": 3
+    },
+    "tail2": {
+     "from": 0,
+     "to": 3
+    }
+   }
+  },
+  "alert": {
+   "n": 60,
+   "bones": {
+    "neck": {
+     "from": -40,
+     "to": -40,
+     "amp": 1.2,
+     "cycles": 1
+    },
+    "head": {
+     "from": -8,
+     "to": -8,
+     "amp": 2.5,
+     "cycles": 2,
+     "phase": 0.1
+    },
+    "tail": {
+     "from": 3,
+     "to": 3,
+     "amp": 1.2,
+     "cycles": 1
+    },
+    "tail2": {
+     "from": 3,
+     "to": 3,
+     "amp": 2,
+     "cycles": 1,
+     "phase": 0.2
+    }
+   }
+  },
+  "walk": {
+   "n": 30,
+   "bob": 5,
+   "bob_cycles": 2,
+   "bones": {
+    "neck": {
+     "from": -34,
+     "to": -34,
+     "amp": 1.6,
+     "cycles": 2
+    },
+    "head": {
+     "from": -6,
+     "to": -6
+    },
+    "tail": {
+     "amp": 1.6,
+     "cycles": 1
+    },
+    "tail2": {
+     "amp": 2.2,
+     "cycles": 1,
+     "phase": 0.2
+    },
+    "leg_near": {
+     "amp": 14,
+     "cycles": 1
+    },
+    "shin_near": {
+     "from": 3,
+     "to": 3,
+     "amp": 6,
+     "cycles": 1,
+     "phase": 0.2
+    },
+    "leg_far": {
+     "amp": 14,
+     "cycles": 1,
+     "phase": 0.5
+    },
+    "shin_far": {
+     "from": 3,
+     "to": 3,
+     "amp": 6,
+     "cycles": 1,
+     "phase": 0.7
+    }
+   }
+  },
+  "run": {
+   "n": 16,
+   "bob": 12,
+   "bob_cycles": 2,
+   "bones": {
+    "neck": {
+     "from": -26,
+     "to": -26,
+     "amp": 2.5,
+     "cycles": 2
+    },
+    "head": {
+     "from": -5,
+     "to": -5
+    },
+    "tail": {
+     "from": 2,
+     "to": 2,
+     "amp": 2,
+     "cycles": 2
+    },
+    "tail2": {
+     "from": 2,
+     "to": 2,
+     "amp": 3,
+     "cycles": 2,
+     "phase": 0.2
+    },
+    "leg_near": {
+     "amp": 24,
+     "cycles": 1
+    },
+    "shin_near": {
+     "from": 6,
+     "to": 6,
+     "amp": 10,
+     "cycles": 1,
+     "phase": 0.2
+    },
+    "leg_far": {
+     "amp": 24,
+     "cycles": 1,
+     "phase": 0.5
+    },
+    "shin_far": {
+     "from": 6,
+     "to": 6,
+     "amp": 10,
+     "cycles": 1,
+     "phase": 0.7
+    }
+   }
+  }
+ },
+ "limbs": [
+  {
+   "name": "far",
+   "under": true,
+   "feather": 5,
+   "poly": [
+    [
+     905,
+     350
+    ],
+    [
+     1045,
+     335
+    ],
+    [
+     1025,
+     470
+    ],
+    [
+     1003,
+     540
+    ],
+    [
+     990,
+     720
+    ],
+    [
+     780,
+     720
+    ],
+    [
+     800,
+     430
+    ]
+   ],
+   "bones": [
+    {
+     "name": "leg_far",
+     "pivot": [
+      1000,
+      345
+     ],
+     "ramp_y": [
+      350,
+      420
+     ]
+    },
+    {
+     "name": "shin_far",
+     "pivot": [
+      885,
+      450
+     ],
+     "ramp_y": [
+      440,
+      500
+     ]
+    }
+   ]
+  },
+  {
+   "name": "near",
+   "under": false,
+   "feather": 5,
+   "poly": [
+    [
+     1050,
+     400
+    ],
+    [
+     1290,
+     345
+    ],
+    [
+     1330,
+     720
+    ],
+    [
+     1010,
+     720
+    ],
+    [
+     1030,
+     500
+    ]
+   ],
+   "bones": [
+    {
+     "name": "leg_near",
+     "pivot": [
+      1165,
+      345
+     ],
+     "ramp_y": [
+      350,
+      420
+     ]
+    },
+    {
+     "name": "shin_near",
+     "pivot": [
+      1070,
+      490
+     ],
+     "ramp_y": [
+      470,
+      530
+     ]
+    }
+   ]
+  }
+ ]
+}

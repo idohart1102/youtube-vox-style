@@ -1,0 +1,858 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "s1",
+   "duration_s": 4.7,
+   "component": "Stage",
+   "transition": "cut",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "narration": "66 triệu năm trước, trên phần đất Việt Nam ngày nay, không ai nghe thấy tiếng nổ.",
+   "props": {
+    "cam": "in",
+    "focus": [
+     760,
+     800
+    ],
+    "water": {
+     "top": 780,
+     "bottom": 1080,
+     "amp": 3,
+     "poly": [
+      [
+       600,
+       775
+      ],
+      [
+       1920,
+       765
+      ],
+      [
+       1920,
+       1080
+      ],
+      [
+       1090,
+       1080
+      ],
+      [
+       960,
+       1000
+      ],
+      [
+       780,
+       925
+      ],
+      [
+       590,
+       860
+      ]
+     ]
+    },
+    "atmosphere": [
+     {
+      "type": "mist",
+      "n": 7,
+      "y": 450
+     }
+    ],
+    "layers": [
+     {
+      "sprite": {
+       "base": "creatures/rig/ornithopod-vn",
+       "clips": [
+        {
+         "name": "drink",
+         "n": 90,
+         "at_s": 0
+        }
+       ]
+      },
+      "x": 640,
+      "y": 1000,
+      "h": 414,
+      "depth": 0.7,
+      "shadow": {
+       "w": 560
+      },
+      "tone": "saturate(1.05) brightness(0.9) sepia(0.12)",
+      "rim": true
+     },
+     {
+      "asset": "foliage/la-duong-xi-can-canh-clean.png",
+      "x": 40,
+      "y": 1250,
+      "h": 640,
+      "depth": 1.5,
+      "blur": 7,
+      "wind": true,
+      "tone": "brightness(0.62)"
+     }
+    ],
+    "cards": [
+     {
+      "text": "66 triệu năm trước",
+      "at_s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "duration_s": 4.7,
+   "component": "GeoMap",
+   "narration": "Vì nó xảy ra ở phía bên kia hành tinh, cách đây khoảng 15.000 km.",
+   "props": {
+    "center": [
+     10,
+     15
+    ],
+    "scale": 260,
+    "markers": [
+     {
+      "lon": -89.5,
+      "lat": 21.3,
+      "label": "Chicxulub",
+      "at_s": 0.3
+     },
+     {
+      "lon": 105.8,
+      "lat": 21.0,
+      "label": "Việt Nam",
+      "at_s": 0.8
+     }
+    ],
+    "arrows": [
+     {
+      "from": [
+       -89.5,
+       21.3
+      ],
+      "to": [
+       105.8,
+       21.0
+      ],
+      "at_s": 1.2
+     }
+    ],
+    "cards": [
+     {
+      "text": "15.000 km",
+      "at_s": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "duration_s": 5.3,
+   "component": "Stage",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "narration": "Nhưng chưa đầy một giờ sau, mặt đất bắt đầu rung. Rồi bầu trời bắt đầu đổ mưa. Không phải mưa nước.",
+   "props": {
+    "cam": "out",
+    "focus": [
+     760,
+     800
+    ],
+    "shake": {
+     "at_s": 1.1,
+     "dur_s": 1.1,
+     "amp": 16
+    },
+    "water": {
+     "top": 780,
+     "bottom": 1080,
+     "amp": 3,
+     "boost": [
+      {
+       "at_s": 1.0,
+       "to_s": 2.6,
+       "amp": 14
+      }
+     ],
+     "poly": [
+      [
+       600,
+       775
+      ],
+      [
+       1920,
+       765
+      ],
+      [
+       1920,
+       1080
+      ],
+      [
+       1090,
+       1080
+      ],
+      [
+       960,
+       1000
+      ],
+      [
+       780,
+       925
+      ],
+      [
+       590,
+       860
+      ]
+     ]
+    },
+    "grade": [
+     {
+      "at_s": 2.3
+     },
+     {
+      "at_s": 3.6,
+      "b": 0.72,
+      "s": 0.95,
+      "c": 1.12,
+      "sky": [
+       232,
+       78,
+       22,
+       0.8
+      ]
+     }
+    ],
+    "atmosphere": [
+     {
+      "type": "mist",
+      "n": 6,
+      "y": 450,
+      "to_s": 3.0
+     },
+     {
+      "type": "firerain",
+      "n": 34,
+      "at_s": 2.6
+     },
+     {
+      "type": "embers",
+      "n": 40,
+      "at_s": 3.4
+     }
+    ],
+    "layers": [
+     {
+      "sprite": {
+       "base": "creatures/rig/ornithopod-vn",
+       "clips": [
+        {
+         "name": "drink",
+         "n": 90,
+         "at_s": 0
+        },
+        {
+         "name": "raise",
+         "n": 24,
+         "at_s": 0.9,
+         "loop": false
+        },
+        {
+         "name": "alert",
+         "n": 60,
+         "at_s": 1.7
+        },
+        {
+         "name": "run",
+         "n": 16,
+         "at_s": 4.0
+        }
+       ]
+      },
+      "x": 640,
+      "y": 1000,
+      "h": 414,
+      "depth": 0.7,
+      "shadow": {
+       "w": 560
+      },
+      "rim": true,
+      "tone": "saturate(1.05) brightness(0.9) sepia(0.12)",
+      "path": [
+       {
+        "at_s": 3.9,
+        "x": 640,
+        "y": 1000
+       },
+       {
+        "at_s": 5.3,
+        "x": 1300,
+        "y": 1190
+       }
+      ]
+     },
+     {
+      "asset": "foliage/la-duong-xi-can-canh-clean.png",
+      "x": 40,
+      "y": 1250,
+      "h": 640,
+      "depth": 1.5,
+      "blur": 7,
+      "wind": true,
+      "tone": "brightness(0.62)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "duration_s": 5.8,
+   "component": "PhotoCard",
+   "transition": "cut",
+   "asset": "photos/kpg-ranh-gioi-lop-set.jpg",
+   "narration": "Đây không phải phim. Nó đã xảy ra thật. Và khoảng ba phần tư số loài trên Trái Đất sắp biến mất.",
+   "props": {
+    "credit": "Ảnh: M. Schaap (TheFurther21) · CC BY-SA 4.0",
+    "label": "Ranh giới K-Pg",
+    "sub": "Zumaia, Tây Ban Nha",
+    "strata_in": {
+     "dir": "up",
+     "dur_s": 1.7,
+     "from_asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+     "from_filter": "brightness(0.55) sepia(0.7) saturate(1.8) hue-rotate(-18deg)",
+     "counter": {
+      "from_ma": 66,
+      "end": "Hôm nay"
+     }
+    },
+    "badges": [
+     {
+      "type": "xac-nhan",
+      "at_s": 1.8
+     }
+    ],
+    "cards": [
+     {
+      "text": "3/4 số loài",
+      "at_s": 2.5,
+      "dur_s": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "duration_s": 3.6,
+   "component": "GeoMap",
+   "narration": "Vậy ngày hôm đó, chuyện gì diễn ra trên mảnh đất bạn đang đứng?",
+   "props": {
+    "center": [
+     107,
+     15
+    ],
+    "scale": 2300,
+    "cam": "in"
+   }
+  },
+  {
+   "id": "s6",
+   "duration_s": 4.2,
+   "component": "Stage",
+   "asset": "backgrounds/kpg-rung-suong-toi.jpg",
+   "narration": "Ở đây có khủng long không? Ai đã sống sót? Và đất đá còn giữ lại dấu vết gì?",
+   "props": {
+    "cam": "left",
+    "atmosphere": [
+     {
+      "type": "mist",
+      "n": 8,
+      "y": 620,
+      "color": "rgba(190,200,210,0.42)"
+     },
+     {
+      "type": "ash",
+      "n": 26
+     }
+    ],
+    "layers": [
+     {
+      "asset": "creatures/sauropod-vn-ngang-dau-clean.png",
+      "x": 1240,
+      "y": 700,
+      "h": 240,
+      "depth": 0.2,
+      "at_s": 0.2,
+      "hide": "silhouette",
+      "tone": "blur(1.2px)",
+      "motion": "breathe"
+     },
+     {
+      "sprite": {
+       "base": "creatures/rig/ornithopod-vn",
+       "clips": [
+        {
+         "name": "walk",
+         "n": 30,
+         "at_s": 0
+        }
+       ]
+      },
+      "x": 460,
+      "y": 760,
+      "h": 230,
+      "depth": 0.5,
+      "at_s": 1.2,
+      "hide": "silhouette",
+      "path": [
+       {
+        "at_s": 1.2,
+        "x": 460
+       },
+       {
+        "at_s": 4.2,
+        "x": 800
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7",
+   "duration_s": 4.2,
+   "component": "FossilReveal",
+   "transition": "cut",
+   "asset": "photos/hoa-thach-ornithopod.jpg",
+   "narration": "Đến cuối tập, bạn sẽ biết một điều lạ về chính mảnh đất này.",
+   "props": {
+    "credit": "Ảnh: Jonathan Chen · CC BY 4.0",
+    "label": "Hóa thạch Dryosaurus",
+    "sub": "Bảo tàng Beneski, Hoa Kỳ",
+    "strata_in": {
+     "dir": "down",
+     "dur_s": 1.0,
+     "from_asset": "backgrounds/kpg-rung-suong-toi.jpg",
+     "from_filter": "brightness(0.7)"
+    },
+    "sprite": {
+     "base": "creatures/rig/ornithopod-vn",
+     "clip": "alert",
+     "n": 60
+    },
+    "x": 780,
+    "y": 930,
+    "h": 760,
+    "reveal_at": 1.2,
+    "sweep_s": 1.0
+   }
+  },
+  {
+   "id": "s8",
+   "duration_s": 3.3,
+   "component": "GeoMap",
+   "narration": "66 triệu năm trước, nó không nằm ở chỗ bây giờ.",
+   "props": {
+    "center": [
+     106,
+     19
+    ],
+    "scale": 1500,
+    "cam": "out",
+    "highlight": [
+     "704"
+    ],
+    "arrows": [
+     {
+      "from": [
+       101.5,
+       24
+      ],
+      "to": [
+       106,
+       19.5
+      ],
+      "at_s": 0.5
+     }
+    ],
+    "cards": [
+     {
+      "text": "66 triệu năm trước",
+      "at_s": 0.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s9",
+   "duration_s": 4.1,
+   "component": "Stage",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "narration": "Và mình sẽ chỉ cho bạn một loài khủng long vẫn đang sống ở Việt Nam.",
+   "props": {
+    "cam": "right",
+    "grade": [
+     {
+      "at_s": 0,
+      "b": 0.55,
+      "s": 0.75,
+      "c": 1.08,
+      "sky": [
+       70,
+       90,
+       150,
+       0.45
+      ]
+     }
+    ],
+    "water": {
+     "top": 780,
+     "bottom": 1080,
+     "amp": 3,
+     "poly": [
+      [
+       600,
+       775
+      ],
+      [
+       1920,
+       765
+      ],
+      [
+       1920,
+       1080
+      ],
+      [
+       1090,
+       1080
+      ],
+      [
+       960,
+       1000
+      ],
+      [
+       780,
+       925
+      ],
+      [
+       590,
+       860
+      ]
+     ]
+    },
+    "atmosphere": [
+     {
+      "type": "mist",
+      "n": 6,
+      "y": 500,
+      "color": "rgba(170,185,210,0.3)"
+     }
+    ],
+    "layers": [
+     {
+      "sprite": {
+       "base": "creatures/rig/ornithopod-vn",
+       "clips": [
+        {
+         "name": "walk",
+         "n": 30,
+         "at_s": 0
+        }
+       ]
+      },
+      "x": 180,
+      "y": 970,
+      "h": 414,
+      "depth": 0.7,
+      "hide": "silhouette",
+      "path": [
+       {
+        "at_s": 0,
+        "x": 200
+       },
+       {
+        "at_s": 4.1,
+        "x": 760
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "duration_s": 1.3,
+   "component": "Stage",
+   "transition": "cut",
+   "asset": "backgrounds/cua-so-nha-viet-hoang-hon.jpg",
+   "narration": "Ngay ngoài cửa sổ nhà bạn.",
+   "props": {
+    "cam": "in",
+    "focus": [
+     1100,
+     300
+    ],
+    "layers": [
+     {
+      "asset": "creatures/chim-chich-bong-clean.png",
+      "x": 1120,
+      "y": 300,
+      "h": 150,
+      "depth": 0.3,
+      "hide": "silhouette",
+      "motion": "bob"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "duration_s": 6.2,
+   "component": "Stage",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "narration": "Mình sẽ đi qua ba chặng. Giờ đầu tiên. Những tháng tối tăm. Và câu hỏi lớn nhất: còn ở Việt Nam thì sao?",
+   "props": {
+    "cam": "in",
+    "focus": [
+     960,
+     560
+    ],
+    "grade": [
+     {
+      "at_s": 1.1
+     },
+     {
+      "at_s": 1.5,
+      "b": 0.72,
+      "s": 0.95,
+      "c": 1.12,
+      "sky": [
+       232,
+       78,
+       22,
+       0.8
+      ]
+     },
+     {
+      "at_s": 2.2,
+      "b": 0.72,
+      "s": 0.95,
+      "c": 1.12,
+      "sky": [
+       232,
+       78,
+       22,
+       0.8
+      ]
+     },
+     {
+      "at_s": 2.7,
+      "b": 0.3,
+      "s": 0.2,
+      "c": 1.05,
+      "sky": [
+       60,
+       58,
+       56,
+       0.85
+      ]
+     },
+     {
+      "at_s": 3.3,
+      "b": 0.3,
+      "s": 0.2,
+      "c": 1.05,
+      "sky": [
+       60,
+       58,
+       56,
+       0.85
+      ]
+     },
+     {
+      "at_s": 4.4,
+      "b": 0.82,
+      "s": 0.8,
+      "c": 1.0,
+      "sky": [
+       120,
+       130,
+       140,
+       0.2
+      ]
+     }
+    ],
+    "water": {
+     "top": 780,
+     "bottom": 1080,
+     "amp": 2,
+     "poly": [
+      [
+       600,
+       775
+      ],
+      [
+       1920,
+       765
+      ],
+      [
+       1920,
+       1080
+      ],
+      [
+       1090,
+       1080
+      ],
+      [
+       960,
+       1000
+      ],
+      [
+       780,
+       925
+      ],
+      [
+       590,
+       860
+      ]
+     ]
+    },
+    "atmosphere": [
+     {
+      "type": "firerain",
+      "n": 30,
+      "at_s": 1.3,
+      "to_s": 2.5
+     },
+     {
+      "type": "embers",
+      "n": 26,
+      "at_s": 1.4,
+      "to_s": 2.6
+     },
+     {
+      "type": "ash",
+      "n": 70,
+      "at_s": 2.4,
+      "to_s": 4.2
+     },
+     {
+      "type": "mist",
+      "n": 6,
+      "y": 520,
+      "at_s": 3.9
+     }
+    ],
+    "cards": [
+     {
+      "text": "Giờ đầu tiên",
+      "at_s": 1.4,
+      "dur_s": 1.0
+     },
+     {
+      "text": "Những tháng tối tăm",
+      "at_s": 2.4,
+      "dur_s": 0.9
+     },
+     {
+      "text": "Còn ở Việt Nam thì sao?",
+      "at_s": 3.4,
+      "dur_s": 2.7
+     }
+    ]
+   },
+   "transition": "cut"
+  },
+  {
+   "id": "s12",
+   "duration_s": 3.85,
+   "component": "Stage",
+   "asset": "backgrounds/kpg-rung-bo-song-binh-minh.jpg",
+   "narration": "Nếu bạn thích kiểu chuyện này, đăng ký kênh để đi cùng mình những chuyến tiếp theo.",
+   "props": {
+    "cam": "out",
+    "focus": [
+     760,
+     800
+    ],
+    "water": {
+     "top": 780,
+     "bottom": 1080,
+     "amp": 3,
+     "poly": [
+      [
+       600,
+       775
+      ],
+      [
+       1920,
+       765
+      ],
+      [
+       1920,
+       1080
+      ],
+      [
+       1090,
+       1080
+      ],
+      [
+       960,
+       1000
+      ],
+      [
+       780,
+       925
+      ],
+      [
+       590,
+       860
+      ]
+     ]
+    },
+    "atmosphere": [
+     {
+      "type": "mist",
+      "n": 7,
+      "y": 450
+     }
+    ],
+    "layers": [
+     {
+      "sprite": {
+       "base": "creatures/rig/ornithopod-vn",
+       "clips": [
+        {
+         "name": "alert",
+         "n": 60,
+         "at_s": 0
+        }
+       ]
+      },
+      "x": 640,
+      "y": 1000,
+      "h": 414,
+      "depth": 0.7,
+      "shadow": {
+       "w": 560
+      },
+      "tone": "saturate(1.05) brightness(0.9) sepia(0.12)",
+      "rim": true
+     },
+     {
+      "asset": "foliage/la-duong-xi-can-canh-clean.png",
+      "x": 40,
+      "y": 1250,
+      "h": 640,
+      "depth": 1.5,
+      "blur": 7,
+      "wind": true,
+      "tone": "brightness(0.62)"
+     }
+    ],
+    "cards": [
+     {
+      "text": "Đăng ký kênh",
+      "at_s": 0.8,
+      "dur_s": 2.8
+     }
+    ]
+   }
+  }
+ ]
+}

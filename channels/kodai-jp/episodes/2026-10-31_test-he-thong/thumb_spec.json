@@ -1,0 +1,2 @@
+[{"name":"a","bg":"backgrounds/bo-bien-hokkaido-co.jpg","subject":{"asset":"creatures/kamuysaurus.png","x":830,"y":700,"h":470},"lines":["日本にも","恐竜が"],"text":{"x":40,"y":40,"size":112,"hot":"恐竜"}},
+ {"name":"b","bg":"backgrounds/bo-bien-hokkaido-co.jpg","subject":{"asset":"creatures/kamuysaurus.png","x":830,"y":700,"h":470},"lines":["全長8m"],"text":{"x":40,"y":60,"size":140,"hot":"8m"}}]

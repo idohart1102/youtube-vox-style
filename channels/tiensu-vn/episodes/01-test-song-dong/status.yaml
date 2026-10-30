@@ -1,0 +1,9 @@
+stage: qc
+owner: ''
+approved:
+  brief: null
+  final: null
+species: []
+qc_rounds: 0
+publish: {}
+note: Bản thử nội bộ, lời đọc cũ, không đăng

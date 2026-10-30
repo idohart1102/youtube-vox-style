@@ -1,0 +1,16 @@
+{
+ "species": {},
+ "assets": [
+  {"id": "bg-rung-song", "kind": "reuse", "file": "backgrounds/kpg-rung-bo-song-binh-minh.jpg"},
+  {"id": "bg-rung-suong", "kind": "reuse", "file": "backgrounds/kpg-rung-suong-toi.jpg"},
+  {"id": "ornithopod-uong", "kind": "reuse", "file": "creatures/ornithopod-vn-uong-nuoc.png"},
+  {"id": "sauropod-ngang", "kind": "reuse", "file": "creatures/sauropod-vn-ngang-dau.png"},
+  {"id": "chich-bong", "kind": "reuse", "file": "creatures/chim-chich-bong.png"},
+  {"id": "kpg-ranh-gioi", "kind": "reuse", "file": "photos/kpg-ranh-gioi-lop-set.jpg"},
+  {"id": "ban-do-co", "kind": "reuse", "file": "maps/codex-paleomap-66ma.jpg"},
+  {"id": "la-can-canh", "kind": "ai", "role": "cutout", "file": "foliage/la-duong-xi-can-canh.png", "prompt": "a dense cluster of large prehistoric tree fern and cycad fronds growing up from the bottom left corner and arching to the right, lush green with warm sunrise rim light, seen very close to the camera", "tags": ["lá", "cận cảnh", "dương xỉ", "tiền cảnh"]},
+  {"id": "tang-da", "kind": "ai", "role": "bg", "file": "backgrounds/tang-da-mat-cat.jpg", "prompt": "straight-on geological cross-section of sedimentary rock strata, many perfectly horizontal layers of limestone, sandstone, red laterite and dark shale, varied thickness, embedded pebbles and tiny shell fragments, filling the entire frame edge to edge, no sky, no ground surface, no plants", "tags": ["tầng đá", "địa chất", "mặt cắt"]},
+  {"id": "cua-so", "kind": "ai", "role": "bg", "file": "backgrounds/cua-so-nha-viet-hoang-hon.jpg", "prompt": "view from inside a dim modern Vietnamese home at dusk through an open metal-framed window, soft orange evening sky outside, an empty thin tree branch crossing the middle of the window, room and window frame in deep shadow, no animals, no people, no birds", "tags": ["cửa sổ", "hiện đại", "hoàng hôn", "việt nam"]},
+  {"id": "hoa-thach", "kind": "real", "file": "photos/hoa-thach-ornithopod.jpg", "query": "photograph of a mounted or articulated fossil skeleton of a small ornithopod dinosaur (for example Hypsilophodon, Thescelosaurus, Dryosaurus or Tenontosaurus), full body in side view, whole skeleton visible", "tags": ["hóa thạch", "ornithopod", "bộ xương"]}
+ ]
+}

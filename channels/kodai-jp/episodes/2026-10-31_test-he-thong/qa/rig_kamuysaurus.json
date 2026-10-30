@@ -1,0 +1,65 @@
+{
+ "plan": "biped",
+ "keypoints": {
+  "neck_base": [
+   789,
+   371
+  ],
+  "head_base": [
+   900,
+   309
+  ],
+  "nose": [
+   986,
+   422
+  ],
+  "tail_base": [
+   502,
+   258
+  ],
+  "tail_mid": [
+   255,
+   214
+  ],
+  "tail_tip": [
+   9,
+   198
+  ],
+  "arm_top": [
+   746,
+   444
+  ],
+  "arm_hand": [
+   770,
+   788
+  ],
+  "near_hip": [
+   577,
+   470
+  ],
+  "near_knee": [
+   589,
+   716
+  ],
+  "near_foot": [
+   641,
+   951
+  ],
+  "far_hip": [
+   511,
+   480
+  ],
+  "far_knee": [
+   460,
+   725
+  ],
+  "far_foot": [
+   471,
+   932
+  ]
+ },
+ "verdict": {
+  "score": 10,
+  "defects": []
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "bien-hokkaido": {
+  "file": "backgrounds/bo-bien-hokkaido-co.jpg",
+  "kept": true,
+  "score": 9.25,
+  "tries": [
+   {
+    "try": 1,
+    "score": 9.25,
+    "subject_match": 9,
+    "anatomy": 10,
+    "style": 8,
+    "clean_background": 10,
+    "has_text": false,
+    "defects": [
+     "Reduce breaking waves and foam to make the sea calmer.",
+     "Soften the bright directional sunlight for a more uniformly overcast morning.",
+     "Use more visible painterly brushwork and less photographic surface detail.",
+     "Ensure vegetation and volcanic landforms reflect Late Cretaceous Hokkaido rather than a modern Japanese coastline."
+    ]
+   }
+  ]
+ },
+ "kamuy": {
+  "file": "creatures/kamuysaurus.png",
+  "kept": true,
+  "score": 8.0,
+  "tries": [
+   {
+    "try": 1,
+    "score": 4.0,
+    "subject_match": 4,
+    "anatomy": 6,
+    "style": 6,
+    "clean_background": 9,
+    "has_text": false,
+    "defects": [
+     "Reduce the prominent pointed crest to a low, subtle Kamuysaurus-compatible profile.",
+     "Broaden and flatten the duck-like bill.",
+     "Lower the head while preserving the horizontal torso and raised forelimbs.",
+     "Replace dangling, claw-like fingers with anatomically accurate hadrosaur hands.",
+     "Use richer painterly detail and more cinematic lighting instead of the flat specimen-render appearance."
+    ]
+   },
+   {
+    "try": 2,
+    "score": 8.0,
+    "subject_match": 8,
+    "anatomy": 8,
+    "style": 6,
+    "clean_background": 10,
+    "has_text": false,
+    "defects": [
+     "Lower the head and neck slightly to match the requested feeding-like posture.",
+     "Refine the forefeet into anatomically accurate hadrosaur hands with tightly grouped weight-bearing digits.",
+     "Replace the uniform, textured 3D-render appearance with richer painterly detail and more cinematic lighting while preserving the clean background."
+    ]
+   }
+  ]
+ },
+ "khung-xuong": {
+  "file": "photos/kamuysaurus-skeleton.jpg",
+  "kept": true,
+  "score": 9.25,
+  "tries": [
+   {
+    "try": 1,
+    "score": 9.25,
+    "subject_match": 9,
+    "anatomy": 8,
+    "style": 10,
+    "clean_background": 10,
+    "has_text": false,
+    "defects": [
+     "Use a higher-resolution photograph to improve skeletal detail.",
+     "Add margin around the snout and tail tip.",
+     "Verify the specimen identification before labeling it Kamuysaurus japonicus."
+    ]
+   }
+  ]
+ }
+}

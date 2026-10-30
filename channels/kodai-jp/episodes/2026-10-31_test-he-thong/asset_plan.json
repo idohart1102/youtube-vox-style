@@ -1,0 +1,7 @@
+{"species": {"kamuysaurus": "Kamuysaurus japonicus, a large hadrosaurid duck-billed dinosaur about 8 m long, bulky body, long stiff tail held horizontally, flat duck-like beak, small head crest, dark olive-brown scaly skin with lighter belly, scientifically accurate Late Cretaceous anatomy"},
+ "assets": [
+  {"id": "bien-hokkaido", "kind": "ai", "role": "bg", "file": "backgrounds/bo-bien-hokkaido-co.jpg", "prompt": "Late Cretaceous coastal plain of what is now Hokkaido, Japan, wide empty sandy shore at the left and centre foreground, calm sea at right, conifer forest and misty volcanic hills in the distance, soft overcast morning light, no animals"},
+  {"id": "kamuy", "kind": "ai", "role": "cutout", "file": "creatures/kamuysaurus.png", "species": "kamuysaurus", "prompt": "the dinosaur standing on its two hind legs with body horizontal, front limbs off the ground, head lowered, tail straight behind, full side view facing right"},
+  {"id": "khung-xuong", "kind": "real", "file": "photos/kamuysaurus-skeleton.jpg", "query": "photograph of the mounted skeleton of Kamuysaurus japonicus (Hobetsu dinosaur) at a Japanese museum, or a hadrosaurid mounted skeleton in full side view"},
+  {"id": "tang-da", "kind": "shared", "file": "shared/textures/tang-da.jpg"}
+ ]}

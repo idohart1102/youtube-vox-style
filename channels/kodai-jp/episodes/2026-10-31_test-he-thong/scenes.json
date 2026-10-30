@@ -1,0 +1,158 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "s1",
+   "lines": [
+    0,
+    2
+   ],
+   "component": "Stage",
+   "asset": "backgrounds/bo-bien-hokkaido-co.jpg",
+   "transition": "cut",
+   "props": {
+    "cam": "in",
+    "atmosphere": [
+     {
+      "type": "mist",
+      "n": 6,
+      "y": 430
+     }
+    ],
+    "layers": [
+     {
+      "sprite": {
+       "base": "creatures/rig/kamuysaurus",
+       "clips": [
+        {
+         "name": "walk",
+         "n": 30,
+         "at_s": 0
+        }
+       ]
+      },
+      "x": 520,
+      "y": 1010,
+      "h": 470,
+      "depth": 0.7,
+      "shadow": {
+       "w": 520
+      },
+      "rim": true,
+      "tone": "saturate(.95) brightness(.95)",
+      "path": [
+       {
+        "at_s": 0,
+        "x": 420
+       },
+       {
+        "at_s": 7,
+        "x": 800
+       }
+      ]
+     }
+    ],
+    "cards": [
+     {
+      "text": "7200万年前",
+      "at_s": 0.3
+     }
+    ]
+   },
+   "duration_s": 7.5,
+   "narration": "7200万年前。 あなたは、北海道の浜辺に立っています。 足元の砂に、大きな足跡が続いています。"
+  },
+  {
+   "id": "s2",
+   "lines": [
+    3,
+    4
+   ],
+   "component": "Stage",
+   "asset": "backgrounds/bo-bien-hokkaido-co.jpg",
+   "props": {
+    "cam": "out",
+    "grade": [
+     {
+      "at_s": 0,
+      "b": 0.8,
+      "s": 0.9,
+      "sky": [
+       70,
+       90,
+       130,
+       0.3
+      ]
+     }
+    ],
+    "layers": [
+     {
+      "sprite": {
+       "base": "creatures/rig/kamuysaurus",
+       "clips": [
+        {
+         "name": "alert",
+         "n": 60,
+         "at_s": 0
+        }
+       ]
+      },
+      "x": 900,
+      "y": 1020,
+      "h": 520,
+      "depth": 0.7,
+      "shadow": {
+       "w": 560
+      },
+      "rim": true
+     }
+    ],
+    "badges": [
+     {
+      "type": "xac-nhan",
+      "at_s": 0.0
+     }
+    ]
+   },
+   "duration_s": 4.8,
+   "narration": "その先に、体長8メートルの恐竜がいました。 これは空想ではありません。"
+  },
+  {
+   "id": "s3",
+   "lines": [
+    5,
+    5
+   ],
+   "component": "FossilReveal",
+   "asset": "photos/kamuysaurus-skeleton.jpg",
+   "transition": "cut",
+   "props": {
+    "credit": "Ảnh: Peabody Museum, Yale · Public domain",
+    "label": "エドモントサウルスの骨格",
+    "sub": "イェール大学ピーボディ博物館",
+    "strata_in": {
+     "dir": "down",
+     "dur_s": 0.8,
+     "from_asset": "backgrounds/bo-bien-hokkaido-co.jpg"
+    },
+    "photo": {
+     "left": 260,
+     "top": 40,
+     "w": 1400
+    },
+    "sprite": {
+     "base": "creatures/rig/kamuysaurus",
+     "clip": "alert",
+     "n": 60
+    },
+    "x": 960,
+    "y": 950,
+    "h": 620,
+    "reveal_at": 0.7,
+    "sweep_s": 0.8
+   },
+   "duration_s": 2.8,
+   "narration": "証拠は、地層の中に残っていたのです。"
+  }
+ ]
+}

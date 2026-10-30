@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+/config/machine.yaml
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
+
+# Media của từng tập: lên Drive bằng publish_clean.py, không vào git
+channels/*/episodes/*/audio/
+channels/*/episodes/*/render/
+channels/*/episodes/*/thumb/
+channels/*/episodes/*/assets/
+channels/*/episodes/*/.cand/
+channels/*/episodes/*/asset_sheet.jpg
+channels/*/episodes/*/qa/*.jpg

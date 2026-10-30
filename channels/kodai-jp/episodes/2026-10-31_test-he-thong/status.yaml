@@ -1,0 +1,13 @@
+stage: done
+owner: ''
+approved:
+  brief: test
+  final: ok
+species:
+- kamuysaurus
+qc_rounds: 0
+publish:
+  drive: kodai-jp/2026-10-31_test-he-thong
+  at: '2026-10-31'
+  source_expires: '2026-11-30'
+note: ''
