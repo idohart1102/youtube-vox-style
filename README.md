@@ -1,7 +1,7 @@
 # YouTube Vox System
 Hệ thống sản xuất video storytelling minh họa cho nhiều kênh, mỗi kênh một ngôn ngữ. Phiên bản xem ở `VERSION`, thay đổi ở `CHANGELOG.md`.
 
-**Người mới bắt đầu:** `docs/handover.md` (cài đặt, dịch vụ, nhận việc) → `core/standard/pipeline.md` (luồng làm việc) → `docs/decisions.md` (quyết định phải tuân theo).
+**Mọi lệnh `python` dùng Python của `.venv`.** **Người mới bắt đầu:** `docs/handover.md` (cài đặt, dịch vụ, nhận việc) → `core/standard/pipeline.md` (luồng làm việc) → `docs/decisions.md` (quyết định phải tuân theo).
 **AI:** Claude Code đọc `CLAUDE.md`, Codex và AI khác đọc `AGENTS.md`. Phân công ở `config/ai_roles.yaml`, hướng dẫn vai trò ở `core/roles/`.
 
 ## Cấu trúc

@@ -1,5 +1,5 @@
 # Phân công AI. Đổi AI cho một vai trò: sửa dòng tại đây. Hướng dẫn vai trò đọc được bằng mọi AI ở core/roles/<vai-trò>.md.
-# Máy này: tạo ảnh và chấm dùng 9router. Máy khác không có 9router: dùng phương án Codex (xem docs/handover.md).
+# Máy này: tạo ảnh và chấm dùng 9router. Máy khác không có 9router: việc chấm chuyển sang Codex, việc tạo ảnh cần dịch vụ tương thích (xem docs/handover.md).
 models:
   claude: claude-opus-5-5
   9router_text: cx/gpt-6.1-sol
@@ -10,7 +10,7 @@ roles:
   writer:       {ai: claude, backup: codex, does: "Brief, kịch bản, meta nháp. Viết theo channels/<slug>/script/"}
   reviewer:     {ai: 9router_text, backup: codex, does: "Chấm kịch bản độc lập, kiểm tra fact"}
   builder:      {ai: claude, backup: codex, does: "asset_plan.json, scenes.json, chọn rig"}
-  image:        {ai: 9router_image, backup: codex, does: "Tạo ảnh qua gen_assets.py"}
+  image:        {ai: 9router_image, backup: none, does: "Tạo ảnh qua gen_assets.py"}
   qc-asset:     {ai: 9router_text, backup: codex, does: "Chấm ảnh, tìm ảnh thật, tối đa 5 lần qua gen_assets.py"}
   qc-video:     {ai: 9router_text, backup: codex, does: "QC video độc lập qua qc_video.py"}
   packager:     {ai: claude, backup: codex, does: "Meta có mốc thời gian, thumbnail, danh sách đăng"}

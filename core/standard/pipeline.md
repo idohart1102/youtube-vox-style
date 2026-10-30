@@ -1,6 +1,6 @@
 # Luồng chuẩn (mọi kênh, mọi ngôn ngữ)
 Luật phân loại: dịch một quy định sang ngôn ngữ khác mà vẫn đúng nguyên văn thì nằm ở `core/standard/`. Phải đổi số, chữ hoặc font thì nằm ở `channels/<slug>/`.
-Ai làm bước nào: `config/ai_roles.yaml`. Hướng dẫn từng vai trò: `core/roles/`. Trước khi làm mỗi bước chạy `python core/scripts/learn.py brief --area <mảng> --channel <slug>`.
+Chi tiết lệnh từng bước nằm trong skill: `core/skills/build-video` (dựng khi đã có audio + srt), `core/skills/package`, `core/skills/publish-clean`. Audio đầu vào đặt ở `<tập>/audio/voice.mp3` và `voice.srt`. Ai làm bước nào: `config/ai_roles.yaml`. Hướng dẫn từng vai trò: `core/roles/`. Trước khi làm mỗi bước chạy `python core/scripts/learn.py brief --area <mảng> --channel <slug>`.
 
 | # | Bước | Vai trò | Đầu ra | Kiểm soát |
 |---|---|---|---|---|
